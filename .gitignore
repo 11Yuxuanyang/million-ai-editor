@@ -8,6 +8,7 @@
 !/LICENSE
 !/CONTRIBUTING.md
 !/THIRD_PARTY_NOTICES.md
+!/.github/
 !/config/
 !/docs/
 !/system/
@@ -42,6 +43,8 @@
 !/docs/EDITORIAL-MOTHER.md
 !/docs/CONTRIBUTOR-GUIDE.md
 !/docs/OPEN-SOURCE-LAUNCH-SCRIPT.md
+!/docs/assets/
+!/docs/assets/star-history.svg
 !/docs/architecture/
 /docs/architecture/*
 !/docs/architecture/OVERVIEW.md
@@ -161,6 +164,7 @@
 !/episodes/**/reference/*.png
 !/episodes/**/reference/*.jpg
 !/episodes/**/reference/*.jpeg
+!/episodes/reference/0813-yujun-boss-content-memory/reference/case-demo-20s-720p60.mp4
 !/library/references/**/*.jpg
 !/references/asset-library/previews/*.png
 

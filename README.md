@@ -5,6 +5,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-111111.svg)](LICENSE)
 [![Python 3.11+](https://img.shields.io/badge/Python-3.11%2B-3776AB.svg)](pyproject.toml)
 [![HyperFrames](https://img.shields.io/badge/Render-HyperFrames-7C3AED.svg)](https://hyperframes.ai/)
+[![GitHub stars](https://img.shields.io/github/stars/11Yuxuanyang/million-ai-editor?style=flat&color=D8FF00&labelColor=111111)](https://github.com/11Yuxuanyang/million-ai-editor/stargazers)
 
 我们做了一个违反祖宗的决定：**开源。**
 
@@ -14,7 +15,13 @@
 
 ## 真实效果
 
-下面的画面来自真实获批项目，不是概念稿。为保护原始素材与客户信息，仓库只保留低分辨率联系表、可迁移的构图判断和示例代码。
+下面的画面来自真实获批项目，不是概念稿。为保护原始素材与客户信息，仓库只保留一段经授权的短案例、低分辨率联系表、可迁移的构图判断和示例代码。
+
+### 20 秒可播放案例
+
+[![点击播放 20 秒真实案例](episodes/reference/0813-yujun-boss-content-memory/reference/formal-master-contact.jpg)](episodes/reference/0813-yujun-boss-content-memory/reference/case-demo-20s-720p60.mp4)
+
+点击联系表播放 `720p60` 案例片段。它包含口播剪切、双语字幕、真实素材、画中画与解释动画；完整母版和原始素材不进入公开仓库。
 
 ### 一条完整口播片的画面密度
 
@@ -162,9 +169,15 @@ system/editing/                     媒体、ASR、进程与诊断模块
 
 ## 开源与素材许可
 
-本项目原创代码与文档采用 [MIT License](LICENSE)。仓库内的第三方转场、Lottie、音效和外部参考仍服从各自许可证，不因本项目开源而自动变成 MIT；详情见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。
+本项目原创代码与文档采用 [MIT License](LICENSE)。仓库内的案例视频、人物素材、第三方转场、Lottie、音效和外部参考仍服从各自许可证，不因本项目开源而自动变成 MIT；详情见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。
 
-原片、客户信息、聊天截图、平台凭据和正式成片默认不进入 Git。公开前请先确认你对素材拥有使用与再分发权。
+原片、客户信息、聊天截图、平台凭据和完整正式成片默认不进入 Git。公开前请先确认你对素材拥有使用与再分发权。
+
+## Star 趋势
+
+[![百万AI剪辑师 Star 趋势](docs/assets/star-history.svg)](https://github.com/11Yuxuanyang/million-ai-editor/stargazers)
+
+图表由仓库自己的 GitHub Action 在获得新 Star 后及每天自动更新，不把访问令牌交给第三方服务。
 
 ## 参与
 

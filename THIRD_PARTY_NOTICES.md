@@ -2,6 +2,14 @@
 
 百万AI剪辑师原创代码与文档使用 MIT License。以下第三方资产、外部参考和用户素材不包含在该 MIT 授权中，使用时应继续遵守各自条款。
 
+## Project demo media
+
+- File: `episodes/reference/0813-yujun-boss-content-memory/reference/case-demo-20s-720p60.mp4`
+- Copyright: © 2026 Million AI Editor contributors. All rights reserved.
+- Use: included only to demonstrate the editing system's output. It is not licensed under MIT and may not be extracted, redistributed or reused in unrelated productions without permission.
+
+The same restriction applies to people, voices and episode-specific imagery visible in the repository's contact sheets.
+
 ## Bundled assets
 
 ### iNeedFX Film Burns
