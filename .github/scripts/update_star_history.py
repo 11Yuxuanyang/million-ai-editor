@@ -103,7 +103,7 @@ def render_svg(repo: str, created: dt.date, stars: list[dt.date]) -> str:
     .grid {{ stroke: #30302d; stroke-width: 1; }}
   </style>
   <rect width="100%" height="100%" rx="8" fill="#11110f"/>
-  <text x="{left}" y="38" class="title">Star 趋势</text>
+  <text x="{left}" y="38" class="title">Star 趋势 / History</text>
   <text x="{left}" y="61" class="meta">{safe_repo}</text>
   <text x="{width-right}" y="38" text-anchor="end" class="title">{running} ★</text>
   {''.join(grid)}

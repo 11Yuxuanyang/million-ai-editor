@@ -1,5 +1,7 @@
 # 百万AI剪辑师
 
+[简体中文](README.md) | [English](README_EN.md)
+
 > **Million AI Editor / 百万剪辑 OS**：把原始口播素材变成可审、可改、可交付的成片。
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-111111.svg)](LICENSE)
