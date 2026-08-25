@@ -31,7 +31,9 @@ for skill in "${skills[@]}"; do
   fi
   source_real="$(realpath "$source_path")"
 
-  if [[ -L "$target_path" ]] && [[ "$(realpath "$target_path")" == "$source_real" ]]; then
+  if [[ -L "$target_path" ]] \
+    && [[ "$(realpath "$target_path")" == "$source_real" ]] \
+    && [[ "$(readlink "$target_path")" == "$source_real" ]]; then
     printf 'ready: %s\n' "$skill"
     continue
   fi
