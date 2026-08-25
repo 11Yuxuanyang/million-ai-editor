@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1920, height=1080" />
+    <title>与君AI｜老板内容记忆</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./assets/vendor/gsap.min.js"></script>
+  </head>
+  <body>
+    <main
+      id="episode"
+      data-composition-id="0813-yujun-boss-content-memory"
+      data-start="0"
+      data-width="1920"
+      data-height="1080"
+      data-fps="60"
+      data-duration="80"
+    >
+      <video id="a-roll" class="base-media" src="assets/media/a-roll-1080p60.mp4" muted playsinline data-start="0" data-duration="80" data-track-index="0"></video>
+      <audio id="a-roll-audio" src="assets/media/a-roll-1080p60.mp4" data-start="0" data-duration="80" data-track-index="100" data-volume="1"></audio>
+
+      <section id="opening-back" class="clip opening opening-back" data-start="0" data-duration="3.8182" data-track-index="2" data-layout-allow-overlap data-layout-allow-occlusion>
+        <div class="opening-minor"><span>不是文案<i></i></span><span>不是剪辑<i></i></span></div>
+        <div class="opening-hero"><span>老板</span><span>本人</span></div>
+      </section>
+      <video id="opening-cutout" class="clip opening-cutout" src="assets/media/opening-cutout-v2.webm" muted playsinline data-start="0" data-duration="3.8182" data-track-index="3"></video>
+      <section id="opening-front" class="clip opening opening-front" data-start="0" data-duration="3.8182" data-track-index="4" data-layout-allow-overlap>
+        <div class="opening-kicker">老板 IP 最贵的</div>
+        <div class="opening-corner">YUJUN AI / CONTENT MEMORY</div>
+      </section>
+
+      <section id="question-scene" class="clip scene question-scene" data-start="3.8182" data-duration="4.2545" data-track-index="10" data-layout-allow-overlap>
+        <div class="question-echo question-echo-a">这一期想讲什么？</div>
+        <div class="question-echo question-echo-b">这一期想讲什么？</div>
+        <div class="question-main"><small>TEAM → FOUNDER</small><strong>老板，这一期想讲什么？</strong></div>
+      </section>
+
+      <section id="scatter-scene" class="clip scene scatter-scene" data-start="8.0727" data-duration="6.8364" data-track-index="12" data-layout-allow-overlap>
+        <div class="evidence evidence-voice">
+          <header><i></i><span>微信语音</span><time>01:24</time></header>
+          <img src="assets/evidence/voice-waveform.png" alt="本期真实语音波形" />
+          <footer>观点 / 判断 / 经验</footer>
+        </div>
+        <div class="evidence evidence-file">
+          <header><i></i><span>产品资料</span><time>PITCH DECK</time></header>
+          <img src="assets/evidence/product-deck-slide.png" alt="与君AI真实产品资料" />
+          <footer>真实项目文件</footer>
+        </div>
+        <div class="evidence evidence-chat">
+          <header><i></i><span>客户问题</span><time>未归档</time></header>
+          <p>“老板要做 AI，<br />第一步应该改哪里？”</p>
+          <footer>散落在聊天记录</footer>
+        </div>
+        <div class="scatter-label">内容并不少，只是没有被公司记住</div>
+      </section>
+
+      <section id="repeat-scene" class="clip scene repeat-scene" data-start="14.9091" data-duration="9.9636" data-track-index="12" data-layout-allow-overlap>
+        <div class="handoff"><small>老板原本想要</small><strong>把内容交出去</strong></div>
+        <div class="repeat-ticket ticket-one"><span>01</span><b>重新解释</b></div>
+        <div class="repeat-ticket ticket-two"><span>02</span><b>重新解释</b></div>
+        <div class="repeat-ticket ticket-three"><span>03</span><b>还是重新解释</b></div>
+        <div class="repeat-result">交出去的不是工作<br /><strong>只是多了一轮沟通</strong></div>
+      </section>
+
+      <section id="principle-scene" class="clip scene principle-scene" data-start="24.8727" data-duration="8.6546" data-track-index="14" data-layout-allow-overlap>
+        <div class="wrong-diagnosis">文案写得慢<i></i></div>
+        <div class="right-diagnosis">公司根本<br /><strong>记不住老板</strong></div>
+        <div class="rule-rail">
+          <span class="rule-count">1</span><span class="rule-count">2</span><span class="rule-arrow">→</span><b>交给 AI</b>
+        </div>
+        <div class="rule-copy">任何做两遍以上的工作，都值得被 AI 化</div>
+      </section>
+
+      <section id="memory-scene" class="clip scene memory-scene" data-start="33.5273" data-duration="10" data-track-index="14" data-layout-allow-overlap>
+        <div class="memory-denial">不是让 AI 随便写</div>
+        <div class="memory-panel">
+          <div class="memory-title"><small>LIVE COMPANY MEMORY</small><strong>企业记忆</strong><em>持续更新</em></div>
+          <div class="memory-spine"><i></i><i></i><i></i></div>
+          <article class="memory-source source-voice"><span>01</span><b>老板语音</b><small>观点 / 判断</small></article>
+          <article class="memory-source source-product"><span>02</span><b>产品资料</b><small>方案 / 案例</small></article>
+          <article class="memory-source source-client"><span>03</span><b>客户问题</b><small>需求 / 异常</small></article>
+          <div class="memory-index"><span>2026.08</span><b>已索引</b></div>
+        </div>
+      </section>
+
+      <section id="retrieve-scene" class="clip scene retrieve-scene" data-start="43.5273" data-duration="7.8545" data-track-index="14" data-layout-allow-overlap>
+        <div class="idea-chip">老板的新想法</div>
+        <div class="retrieve-panel">
+          <div class="retrieve-focus"><i></i><b>正在调用</b></div>
+          <div class="retrieve-item"><small>01</small><strong>过去的观点</strong></div>
+          <div class="retrieve-item"><small>02</small><strong>做过的案例</strong></div>
+          <div class="retrieve-item"><small>03</small><strong>积累的素材</strong></div>
+        </div>
+        <div class="output-doc"><small>OUTPUT</small><b>文案</b></div>
+        <div class="output-arrow">→</div>
+        <div class="output-edit"><small>NEXT</small><b>剪辑</b><i></i><i></i><i></i></div>
+      </section>
+
+      <section id="decision-scene" class="clip scene decision-scene" data-start="51.3818" data-duration="3.5637" data-track-index="14" data-layout-allow-overlap>
+        <div class="decision decision-left"><small>01</small><strong>做判断</strong></div>
+        <div class="decision decision-right"><small>02</small><strong>最终确认</strong><i>✓</i></div>
+        <div class="decision-note">老板只保留真正重要的责任</div>
+      </section>
+
+      <section id="asset-scene" class="clip scene asset-scene" data-start="54.9455" data-duration="6.5818" data-track-index="14" data-layout-allow-overlap>
+        <div class="asset-title"><small>EVERY EXPRESSION STAYS</small><strong>每一次表达，都成为资产</strong></div>
+        <div class="asset-stack">
+          <article><small>08 / 10</small><b>老板如何判断客户价值</b></article>
+          <article><small>08 / 11</small><b>产品为什么这样设计</b></article>
+          <article><small>08 / 12</small><b>这次项目积累了什么</b></article>
+        </div>
+      </section>
+
+      <section id="third-scene" class="clip scene third-scene" data-start="61.5273" data-duration="2.5818" data-track-index="16" data-layout-allow-overlap>
+        <div class="count count-one">1</div><div class="count count-two">2</div><div class="count count-three">3<i></i></div>
+        <div class="third-copy">说过两遍，就不该再从头说第三遍</div>
+      </section>
+
+      <section id="brand-scene" class="clip scene brand-scene" data-start="64.1091" data-duration="5.8182" data-track-index="14" data-layout-allow-overlap>
+        <div class="brand-lock"><small>ENTERPRISE AI STUDIO</small><strong>与君 AI</strong></div>
+        <div class="brand-step step-one"><span>01</span><b>找到重复</b></div>
+        <div class="brand-step step-two"><span>02</span><b>接入 AI</b></div>
+        <div class="brand-step step-three"><span>03</span><b>人来验收</b></div>
+      </section>
+
+      <section id="cta-scene" class="clip scene cta-scene" data-start="69.9273" data-duration="10.0727" data-track-index="14" data-layout-allow-overlap>
+        <div class="cta-message"><small>私信关键词</small><strong>内容</strong><span>+ 发送过去三条视频</span></div>
+        <div class="diagnosis">
+          <span>文案</span><span>素材</span><strong>真正能运转的流程</strong>
+        </div>
+        <div class="cta-brand">与君 AI · 帮企业把 AI 接进真实工作</div>
+      </section>
+
+      <!-- Network footage: editorial context, never presented as a Yujun AI client case. -->
+      <video id="voice-note-broll" class="clip real-broll" src="assets/real/stock/voice-message-pexels-5941023.mp4" muted playsinline data-start="8.18" data-duration="2.94" data-media-start="0.9" data-track-index="30"></video>
+      <section id="voice-note-label" class="clip broll-caption" data-start="8.18" data-duration="2.94" data-track-index="31" data-layout-allow-overlap>
+        <small>行业场景 / VOICE NOTE</small><strong>观点，在语音里</strong>
+      </section>
+
+      <video id="team-computers-broll" class="clip real-broll" src="assets/real/stock/team-computers-pexels-12283404.mp4" muted playsinline data-start="11.12" data-duration="1.60" data-media-start="1.65" data-track-index="33"></video>
+      <section id="team-computers-label" class="clip broll-caption broll-caption-right" data-start="11.12" data-duration="1.60" data-track-index="34" data-layout-allow-overlap>
+        <small>行业场景 / TEAM WORK</small><strong>案例，在员工电脑里</strong>
+      </section>
+
+      <video id="office-work-broll" class="clip real-broll morph-broll" src="assets/real/stock/office-work-pexels-8048240.mp4" muted playsinline data-start="15.18" data-duration="6.22" data-media-start="1.25" data-track-index="35"></video>
+      <section id="office-work-label" class="clip broll-caption" data-start="15.18" data-duration="3.45" data-track-index="36" data-layout-allow-overlap>
+        <small>行业场景 / CONTENT TEAM</small><strong>团队开工，还是要等老板</strong>
+      </section>
+
+      <!-- Chapter transitions: one recurring visual mainline, one semantic pixel resolve. -->
+      <section id="transition-diagnosis" class="clip chapter-transition contour-transition" data-start="24.28" data-duration="1.42" data-track-index="72" data-layout-allow-overlap data-layout-allow-occlusion>
+        <img src="assets/transition-native/contour-lines.svg" alt="" />
+        <div><small>THE REAL BOTTLENECK</small><strong>真正的问题</strong><span>公司记不住老板</span></div>
+      </section>
+
+      <section id="offer-cover-broll" class="clip project-broll document-broll" data-start="29.22" data-duration="3.86" data-track-index="37" data-layout-allow-overlap>
+        <div class="document-stage">
+          <div class="document-copy"><small>真实 Offer Doc</small><strong>做两遍以上<br />就值得被 AI 化</strong><span>不是随便生成，而是重建工作方式</span></div>
+          <img src="assets/real/project/offer-cover.png" alt="与君AI企业AI服务方案真实封面" />
+        </div>
+      </section>
+
+      <section id="transition-memory" class="clip chapter-transition pixel-transition" data-start="33.05" data-duration="1.38" data-track-index="73" data-layout-allow-overlap data-layout-allow-occlusion>
+        <div class="pixel-field" aria-hidden="true"></div>
+        <div><small>FROM FRAGMENTS TO MEMORY</small><strong>散落的信息</strong><span>变成企业记忆</span></div>
+      </section>
+
+      <section id="action-loop-broll" class="clip project-broll action-loop-broll" data-start="34.36" data-duration="3.26" data-track-index="38" data-layout-allow-overlap>
+        <img src="assets/real/project/pitch-action-loop.png" alt="与君AI真实业务闭环页面" />
+        <div class="source-chip">真实项目资料 / AI ACTION LOOP</div>
+      </section>
+
+      <video id="editing-timeline-broll" class="clip real-broll editing-broll" src="assets/real/stock/editing-timeline-pexels-1536315.mp4" muted playsinline data-start="49.80" data-duration="1.58" data-media-start="2.2" data-track-index="39"></video>
+      <section id="editing-broll-label" class="clip broll-caption broll-caption-right" data-start="49.80" data-duration="1.58" data-track-index="40" data-layout-allow-overlap>
+        <small>行业场景 / EDITING TIMELINE</small><strong>形成文案，再进入剪辑</strong>
+      </section>
+
+      <section id="offer-loop-broll" class="clip project-broll offer-loop-broll" data-start="55.12" data-duration="3.02" data-track-index="41" data-layout-allow-overlap>
+        <div class="document-stage document-stage-reverse">
+          <img src="assets/real/project/offer-loop.png" alt="与君AI真实服务闭环页面" />
+          <div class="document-copy"><small>真实 Offer Doc</small><strong>每一次表达<br />都留在系统里</strong><span>不是一次性输出，而是可复用资产</span></div>
+        </div>
+      </section>
+
+      <section id="transition-brand" class="clip chapter-transition contour-transition contour-transition-return" data-start="63.72" data-duration="1.46" data-track-index="74" data-layout-allow-overlap data-layout-allow-occlusion>
+        <img src="assets/transition-native/contour-lines-return.svg" alt="" />
+        <div><small>REPEAT LESS · REMEMBER MORE</small><strong>重复工作</strong><span>交给系统</span></div>
+      </section>
+
+      <section id="history-montage" class="clip history-montage" data-start="69.93" data-duration="3.92" data-track-index="42" data-layout-allow-overlap>
+        <figure><img src="assets/real/history/video-01.jpg" alt="与君AI过去视频一" /></figure>
+        <figure><img src="assets/real/history/video-02.jpg" alt="与君AI过去视频二" /></figure>
+        <figure><img src="assets/real/history/video-03.jpg" alt="与君AI过去视频三" /></figure>
+        <div><small>真实历史内容</small><strong>发三条过去的视频</strong><span>让系统先理解你已经讲过什么</span></div>
+      </section>
+
+      <section id="captions">
+        <!-- CAPTIONS -->
+      </section>
+
+      <audio id="opening-whoosh" src="assets/sfx/opening-pullback-whoosh.m4a" data-start="0.05" data-duration="1.1" data-track-index="110" data-volume="0.7"></audio>
+      <audio id="opening-marker" src="assets/sfx/pen-marker-line.wav" data-start="1.24" data-duration="0.34" data-media-start="0" data-track-index="111" data-volume="0.34"></audio>
+    </main>
+    <script>/* TIMELINE */</script>
+  </body>
+</html>

@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "reference.generated.vox-two-presenter.v1",
+  "title": "人物保持可辨认，生成拆件完成抽象关系演示",
+  "category": "generated-explainer",
+  "status": "approved",
+  "source": {
+    "assetId": "asset.case.0727.approved-master",
+    "relativePath": "videos/0727-million-plan-ep03-vox-recut/renders/百万计划第三期-最高规格发布母版-1080p60.mp4",
+    "timeRange": {
+      "start": "00:00:20.000",
+      "end": "00:00:26.000"
+    }
+  },
+  "semanticProblem": "真实口播无法直接展示 AI 时代人才的抽象关系，需要人物、角色与结果依次出现，而不是切到一张静态插画。",
+  "visibleMotion": [
+    "人物口播保持空间锚点，生成角色随对应词出现",
+    "两位授权人物与 AI 标志在独立舞台上形成 setup",
+    "经验材料和旧角色随后进入，完成比较与结果交接"
+  ],
+  "useWhen": [
+    "抽象观点可以拆成明确的 setup、action 和 result",
+    "生成形象只承担解释，不承担事实证明"
+  ],
+  "avoidWhen": [
+    "只有一张整图做淡入或缩放",
+    "身份参考不足，或生成动作会被误解为真实事件"
+  ],
+  "rights": {
+    "status": "reference-only",
+    "license": "项目自制剪辑；画面含用户授权人物及单期生成资产。只复用语义和动作结构，人物像素不作为通用素材。"
+  },
+  "productionEligibility": "recipe-only",
+  "review": {
+    "status": "approved",
+    "basis": "来自 0727 成片中被保留的人物生成解释段及用户反复确认的 VOX 方法。"
+  }
+}

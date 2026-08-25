@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "sequence-output.schema.json",
+  "title": "Editing System V3 Sequence Output",
+  "type": "object",
+  "required": ["schemaVersion", "sequenceId", "taskFingerprint", "status", "files", "landedResult", "boundaryResult", "usedSources", "usedCapabilities", "notes"],
+  "properties": {
+    "schemaVersion": {"const": 1},
+    "sequenceId": {"type": "string", "minLength": 1},
+    "taskFingerprint": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "status": {"const": "ready"},
+    "files": {
+      "type": "object",
+      "properties": {
+        "fragment": {"type": "string"},
+        "styles": {"type": "string"},
+        "timeline": {"type": "string"},
+        "assets": {"type": "array", "items": {"type": "string"}}
+      },
+      "additionalProperties": false
+    },
+    "intentionalHold": {"type": "string"},
+    "landedResult": {"type": "string", "minLength": 1},
+    "boundaryResult": {
+      "type": "object",
+      "required": ["entryState", "exitState"],
+      "properties": {
+        "entryState": {"type": "string", "minLength": 1},
+        "exitState": {"type": "string", "minLength": 1}
+      },
+      "additionalProperties": false
+    },
+    "usedSources": {"type": "array", "items": {"type": "string"}},
+    "usedCapabilities": {"type": "array", "items": {"type": "string"}},
+    "notes": {"type": "array", "items": {"type": "string"}}
+  },
+  "additionalProperties": true
+}

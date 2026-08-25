@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "id": "reference.opening.boss-content-memory.v1",
+  "title": "反常识判断先落地，人物随后从字后显形",
+  "category": "opening",
+  "status": "approved",
+  "source": {
+    "assetId": "asset.case.0813.formal-master",
+    "relativePath": "videos/0813-yujun-boss-content-memory/deliverables/与君AI-老板内容记忆-正式母版-1080p60.mp4",
+    "timeRange": {
+      "start": "00:00:00.000",
+      "end": "00:00:03.820"
+    }
+  },
+  "semanticProblem": "前三秒需要先否定观众的惯性答案，再让真正昂贵的对象成为唯一主读点。",
+  "visibleMotion": [
+    "极近人物镜头以长尾缓动从 1.12 倍拉回 1.00 倍",
+    "较小的错误答案先出现，随后虚化并退到视觉底层",
+    "主判断从人物后方扩张为横向大字，人物保持在文字前景"
+  ],
+  "sound": {
+    "assetId": "sfx.opening-pullback-whoosh.direction.v1",
+    "binding": "与开场长尾拉远同时启动，声音尾部和镜头落稳共同完成揭示。",
+    "approvedCaseTiming": {
+      "startSeconds": 0.05,
+      "durationSeconds": 1.1
+    },
+    "distribution": "原始音频母文件不随开源仓库分发；制作时选择单独取得许可的同方向 whoosh。"
+  },
+  "useWhen": [
+    "开场拥有一句足够短、足够反常识的核心判断",
+    "人物轮廓稳定，能够形成可靠的前后景层级"
+  ],
+  "avoidWhen": [
+    "判断必须靠长句解释，无法在三秒内读完",
+    "主体抠像不稳定，或大字会遮住眼睛、嘴、手势和字幕"
+  ],
+  "rights": {
+    "status": "reference-only",
+    "license": "项目自制剪辑；画面含用户素材与单期已授权素材。仅复用构图和运动判断，不把本片像素作为其他项目素材。"
+  },
+  "productionEligibility": "recipe-only",
+  "review": {
+    "status": "approved",
+    "basis": "来自 0813 正式母版及其已确认 Motion Storyboard。"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "moments": [
+    {
+      "at": "00:00:00.450",
+      "meaning": "可见曝光洗切开始"
+    },
+    {
+      "at": "00:00:00.520",
+      "meaning": "近白峰值中心，推荐切点"
+    },
+    {
+      "at": "00:00:00.580",
+      "meaning": "主要曝光结束，新场景颜色开始恢复"
+    },
+    {
+      "at": "00:00:01.200",
+      "meaning": "烧片尾部结束"
+    }
+  ],
+  "referenceId": "reference.transition.film-burn-screen.v1",
+  "schemaVersion": 1,
+  "timeRange": {
+    "end": "00:00:01.200",
+    "start": "00:00:00.000"
+  }
+}

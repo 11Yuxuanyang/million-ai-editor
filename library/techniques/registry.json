@@ -1,0 +1,420 @@
+{
+  "schemaVersion": 1,
+  "policy": {
+    "storesTechniquesNotLayouts": true,
+    "approvedRequiresUserEvidence": true,
+    "candidateMayBeUsedOnlyWithEpisodeAcceptance": true
+  },
+  "techniques": [
+    {
+      "id": "technique.display.semantic-rise",
+      "version": 1,
+      "status": "candidate",
+      "semanticProblem": "A spoken hook contains several pressure points that need one escalating visual sentence.",
+      "useWhen": [
+        "phrase timing is clear",
+        "presenter remains the visual anchor"
+      ],
+      "avoidWhen": [
+        "every word would become a separate effect",
+        "the face would become unreadable"
+      ],
+      "motionGrammar": "hidden phrase groups below their final baseline -> groups rise on speech pressure with unequal timing -> two stable lines hold as one hero statement",
+      "assetRefs": ["motion.typography.layered-display.v1"],
+      "source": "hf-0728-ai-news-opening-sample",
+      "knownUses": [
+        "hf-0728-ai-news-opening-sample@v24-r2"
+      ],
+      "review": {
+        "status": "candidate-from-approved-composite",
+        "report": "hf-0728-ai-news-opening-sample/reviews/composite-preview-review-v24-r2-user-approved-center-hook.md"
+      }
+    },
+    {
+      "id": "technique.evidence.symmetric-tableau",
+      "version": 1,
+      "status": "candidate",
+      "semanticProblem": "Many tools must feel like accumulated input rather than a screenshot wall.",
+      "useWhen": [
+        "multiple real assets share one concept",
+        "the operator remains the center of causality"
+      ],
+      "avoidWhen": [
+        "the assets are not real",
+        "the tableau would cover the presenter without adding evidence"
+      ],
+      "motionGrammar": "clean presenter frame -> paired evidence cards approach a central operator in depth -> the tableau lands with one readable center and balanced sides",
+      "assetRefs": ["motion.composition.presenter-card-orbit.v1"],
+      "source": "hf-0728-ai-news-opening-sample",
+      "knownUses": [
+        "hf-0728-ai-news-opening-sample@v24-r2"
+      ],
+      "review": {
+        "status": "candidate-from-approved-composite",
+        "report": "hf-0728-ai-news-opening-sample/reviews/composite-preview-review-v24-r2-user-approved-center-hook.md"
+      }
+    },
+    {
+      "id": "technique.display.side-fade",
+      "version": 1,
+      "status": "candidate",
+      "semanticProblem": "A noun phrase needs emphasis without becoming another hero title.",
+      "motionGrammar": "phrase absent beside existing evidence -> phrase travels a short horizontal path while resolving opacity -> phrase lands beside the evidence and leaves before the next idea",
+      "assetRefs": ["motion.typography.layered-display.v1"],
+      "source": "hf-0728-ai-news-opening-sample",
+      "knownUses": [
+        "hf-0728-ai-news-opening-sample@v24-r2"
+      ],
+      "review": {
+        "status": "candidate-from-approved-composite",
+        "report": "hf-0728-ai-news-opening-sample/reviews/composite-preview-review-v24-r2-user-approved-center-hook.md"
+      }
+    },
+    {
+      "id": "technique.display.quiet-fade",
+      "version": 1,
+      "status": "candidate",
+      "semanticProblem": "A reflective sentence needs visual emphasis without kinetic noise.",
+      "motionGrammar": "clean A-roll -> one phrase resolves from soft opacity with almost no travel -> phrase holds briefly while the presenter remains dominant",
+      "assetRefs": ["motion.typography.layered-display.v1"],
+      "source": "hf-0728-ai-news-opening-sample",
+      "knownUses": [
+        "hf-0728-ai-news-opening-sample@v24-r2"
+      ],
+      "review": {
+        "status": "candidate-from-approved-composite",
+        "report": "hf-0728-ai-news-opening-sample/reviews/composite-preview-review-v24-r2-user-approved-center-hook.md"
+      }
+    },
+    {
+      "id": "technique.ui.masked-code-reveal",
+      "version": 1,
+      "status": "candidate",
+      "semanticProblem": "A move into coding should feel like entering an executable system, not turning to a slide.",
+      "motionGrammar": "presenter stage is still visible -> a code window opens through a directional mask and internal lines resolve in order -> a complete executable-looking system holds with the term anchored above it",
+      "source": "hf-0728-ai-news-opening-sample",
+      "knownUses": [
+        "hf-0728-ai-news-opening-sample@v24-r2"
+      ],
+      "review": {
+        "status": "candidate-from-approved-composite",
+        "report": "hf-0728-ai-news-opening-sample/reviews/composite-preview-review-v24-r2-user-approved-center-hook.md"
+      }
+    },
+    {
+      "id": "technique.camera.evidence-push",
+      "version": 1,
+      "status": "candidate",
+      "semanticProblem": "Real material must become the argument without losing orientation.",
+      "motionGrammar": "full-frame evidence establishes -> camera makes one restrained push toward the relevant subject -> source identity and focal evidence remain readable at the landing",
+      "assetRefs": ["motion.camera.long-tail-scale.v1"],
+      "source": "hf-0728-ai-news-opening-sample",
+      "knownUses": [
+        "hf-0728-ai-news-opening-sample@v24-r2"
+      ],
+      "review": {
+        "status": "candidate-from-approved-composite",
+        "report": "hf-0728-ai-news-opening-sample/reviews/composite-preview-review-v24-r2-user-approved-center-hook.md"
+      }
+    },
+    {
+      "id": "technique.evidence.three-card-spread",
+      "version": 1,
+      "status": "candidate",
+      "semanticProblem": "Several examples must converge into a single claimed result.",
+      "motionGrammar": "evidence is outside the composition -> three real cards open from one compressed center with depth separation -> the cards land as one row and the result phrase receives one final mark",
+      "assetRefs": ["motion.composition.presenter-card-orbit.v1"],
+      "source": "hf-0728-ai-news-opening-sample",
+      "knownUses": [
+        "hf-0728-ai-news-opening-sample@v24-r2"
+      ],
+      "review": {
+        "status": "candidate-from-approved-composite",
+        "report": "hf-0728-ai-news-opening-sample/reviews/composite-preview-review-v24-r2-user-approved-center-hook.md"
+      }
+    },
+    {
+      "id": "technique.evidence.cue-locked-handoff",
+      "version": 1,
+      "status": "approved",
+      "semanticProblem": "A factual claim names a person, message, document, product, or action and the audience needs to see the matching evidence at the exact spoken cue.",
+      "useWhen": [
+        "the material is authentic and legible",
+        "the spoken cue has a clear entry and exit"
+      ],
+      "avoidWhen": [
+        "the asset only decorates the topic",
+        "the evidence would appear before the audience knows what to inspect"
+      ],
+      "motionGrammar": "presenter establishes the claim -> matching evidence takes over on the named cue -> evidence holds long enough to read -> attention returns to the presenter or hands off to the next proof",
+      "assetRefs": ["motion.evidence.cue-locked-handoff.v1"],
+      "source": "0813-yujun-boss-content-memory",
+      "knownUses": [
+        "0813-yujun-boss-content-memory@approved-master"
+      ],
+      "review": {
+        "status": "approved-by-user",
+        "evidence": "The user retained the real-evidence word handoff in the approved final edit."
+      }
+    },
+    {
+      "id": "technique.evidence.fullframe-to-pip-handoff",
+      "version": 1,
+      "status": "approved",
+      "semanticProblem": "Real footage must first be understood in full and then remain present while the narration returns to the presenter.",
+      "useWhen": [
+        "the evidence needs full-frame establishment",
+        "the same evidence still matters after the presenter returns"
+      ],
+      "avoidWhen": [
+        "the inset would cover a face or caption",
+        "the evidence is too small to remain meaningful as PIP"
+      ],
+      "motionGrammar": "evidence fills the frame and establishes -> the same uncropped evidence shrinks with a long-tail ease into a face-safe rounded PIP -> presenter resumes while the inset completes the thought",
+      "assetRefs": ["motion.evidence.fullframe-to-pip.v1", "layout.letterboxed-portrait-pip.v1"],
+      "source": "0813-yujun-boss-content-memory",
+      "knownUses": [
+        "0813-yujun-boss-content-memory@approved-master"
+      ],
+      "review": {
+        "status": "approved-by-user",
+        "evidence": "The user retained the full-frame evidence to PIP handoff in the approved final edit."
+      }
+    },
+    {
+      "id": "technique.evidence.quick-flash-montage",
+      "version": 1,
+      "status": "candidate",
+      "semanticProblem": "Several real examples must register as accumulated proof without stopping the narration for a screenshot wall.",
+      "useWhen": [
+        "each source is recognizable at short duration",
+        "the sequence supports one spoken claim"
+      ],
+      "avoidWhen": [
+        "the audience must read dense copy",
+        "the sources do not share one argument"
+      ],
+      "motionGrammar": "presenter or first proof establishes -> real sources replace one another on speech beats with consistent focal placement -> the final source lands long enough to hand off the conclusion",
+      "assetRefs": ["motion.evidence.quick-flash-montage.v1"],
+      "source": "hf-0728-ai-news-opening-sample",
+      "knownUses": [
+        "hf-0728-ai-news-opening-sample@v24-r2"
+      ],
+      "review": {
+        "status": "candidate-from-approved-composite",
+        "report": "hf-0728-ai-news-opening-sample/reviews/composite-preview-review-v24-r2-user-approved-center-hook.md"
+      }
+    },
+    {
+      "id": "technique.composition.shared-pivot-page-fan",
+      "version": 1,
+      "status": "approved",
+      "semanticProblem": "Several pages or cases must feel like a body of work growing around a presenter rather than flat cards pasted over the frame.",
+      "useWhen": [
+        "the presenter is the causal center",
+        "the pages can remain recognizable at an angle"
+      ],
+      "avoidWhen": [
+        "the cards would obscure the presenters",
+        "the layout has no shared pivot or depth hierarchy"
+      ],
+      "motionGrammar": "presenter remains centered -> pages emerge from one hidden pivot behind the body -> left and right pages fan outward with different perspective angles and depth -> the spread settles as one readable spatial relationship",
+      "assetRefs": ["motion.composition.shared-pivot-page-fan.v1"],
+      "source": "0727-million-plan-ep03-vox-recut",
+      "knownUses": [
+        "0727-million-plan-ep03-vox-recut@round-04"
+      ],
+      "review": {
+        "status": "approved-by-repeated-user-direction",
+        "evidence": "The user repeatedly defined the person-centered flower-like fan and retained the corrected spatial method."
+      }
+    },
+    {
+      "id": "technique.generated.vox-cutout-motion",
+      "version": 1,
+      "status": "approved",
+      "semanticProblem": "An abstract claim needs a concrete, playful, human-scale explanation that real footage cannot show directly.",
+      "useWhen": [
+        "the scene can show a readable setup, action, and result",
+        "generated characters or objects are explanatory rather than factual evidence"
+      ],
+      "avoidWhen": [
+        "one static generated composition would be treated as motion",
+        "the same pose or scene would be repeated across unrelated claims"
+      ],
+      "motionGrammar": "generate content-specific people, objects, and backgrounds as separable assets -> key, complete, and layer the pieces -> animate a clear setup, action, reaction, and result -> exit back to the presenter or evidence on the spoken handoff",
+      "assetRefs": ["motion.generated.cutout-sequence.v1"],
+      "reference": "skills/hyperframe-video-editor/references/generated-cutout-motion.md",
+      "source": "0727-million-plan-ep03-vox-recut",
+      "knownUses": [
+        "0727-million-plan-ep03-vox-recut@dynamic-line-dot-two-presenter-vox-v5"
+      ],
+      "review": {
+        "status": "approved-by-repeated-user-direction",
+        "evidence": "The user repeatedly required ImageGen-built, cutout, completed, and animated Vox scenes using the two creators' likenesses."
+      }
+    },
+    {
+      "id": "technique.transition.contour-flow-bridge",
+      "version": 1,
+      "status": "approved",
+      "semanticProblem": "A chapter change needs a calm black spatial bridge that suggests terrain, pressure, hierarchy, or a path without becoming a slide.",
+      "useWhen": [
+        "the chapter has a terrain, growth, complexity, or systems metaphor",
+        "the transition can breathe for roughly one second"
+      ],
+      "avoidWhen": [
+        "random lines would add no meaning",
+        "the field would be cropped, dashed, or move too quickly"
+      ],
+      "motionGrammar": "black field replaces the outgoing shot -> complete contour paths draw and drift slowly beyond the frame edges -> chapter text resolves after the terrain exists -> the field hands off and exits",
+      "assetRefs": ["transition.contour-flow.v1"],
+      "implementation": "library/techniques/transition-native/contour-flow.js",
+      "configuration": "library/techniques/transition-native/contour-flow.config.json",
+      "source": "0727-million-plan-ep03-vox-recut",
+      "knownUses": [
+        "0727-million-plan-ep03-vox-recut@round-09"
+      ],
+      "review": {
+        "status": "approved-by-user-after-correction",
+        "evidence": "The user retained the black moving contour transition after correcting speed and edge continuity."
+      }
+    },
+    {
+      "id": "technique.transition.dynamic-line-dot-blackout",
+      "version": 1,
+      "status": "approved",
+      "semanticProblem": "A chapter change about networks, collaboration, systems, or AI nodes needs a structured black transition rather than decoration over the presenter.",
+      "useWhen": [
+        "nodes or relationships are semantically relevant",
+        "the field exists only for the transition"
+      ],
+      "avoidWhen": [
+        "dots would remain over the dialogue scene",
+        "points or lines would be arbitrary decoration"
+      ],
+      "motionGrammar": "black field takes over -> points drift into a deliberate arrangement -> only meaningful links illuminate -> chapter copy appears after the relationship is readable -> the entire field exits before dialogue resumes",
+      "assetRefs": ["transition.dynamic-line-dot-blackout.v1"],
+      "implementation": "library/techniques/transition-native/dot-grid-blackout.js",
+      "configuration": "library/techniques/transition-native/dot-grid-blackout.config.json",
+      "source": "0727-million-plan-ep03-vox-recut",
+      "knownUses": [
+        "0727-million-plan-ep03-vox-recut@round-09"
+      ],
+      "review": {
+        "status": "approved-by-user-after-correction",
+        "evidence": "The user explicitly retained the point-field idea as a transition-only technique."
+      }
+    },
+    {
+      "id": "technique.system.scatter-index-retrieve",
+      "version": 1,
+      "status": "approved",
+      "semanticProblem": "A system story must show scattered knowledge becoming organized and reusable without switching to a disconnected presentation slide.",
+      "useWhen": [
+        "the same real materials recur across several stages",
+        "the narration describes capture, organization, and reuse"
+      ],
+      "avoidWhen": [
+        "the materials do not persist across the story",
+        "the transformation would be decorative rather than causal"
+      ],
+      "motionGrammar": "real materials appear in their original scattered carriers -> the same items move into one visible index -> the index retrieves the relevant item on cue -> the retrieved material becomes the next action or output",
+      "assetRefs": ["motion.system.scatter-index-retrieve.v1"],
+      "source": "0813-yujun-boss-content-memory",
+      "knownUses": [
+        "0813-yujun-boss-content-memory@approved-master"
+      ],
+      "review": {
+        "status": "approved-by-user",
+        "evidence": "The user retained the scatter-to-index-to-retrieve visual spine in the approved final edit."
+      }
+    },
+    {
+      "id": "technique.camera.long-tail-scale-hold",
+      "version": 1,
+      "status": "approved",
+      "semanticProblem": "A spoken emphasis needs a spatial change that feels intentional rather than a temporary zoom effect.",
+      "useWhen": [
+        "the face, gesture, or evidence has a clear landing frame",
+        "the scale change shares one semantic beat with display type or sound"
+      ],
+      "avoidWhen": [
+        "the crop would lose a face, hand, subtitle, or proof",
+        "the move would bounce back without a new spoken reason"
+      ],
+      "motionGrammar": "current framing -> fast-starting scale and position change with a long deceleration tail -> new framing lands and remains fixed until another independent cue",
+      "assetRefs": ["motion.camera.long-tail-scale.v1"],
+      "source": "approved repeated project direction",
+      "review": {
+        "status": "approved-by-user",
+        "evidence": "The user repeatedly retained fast-to-slow push and pull moves only when they land and hold."
+      }
+    },
+    {
+      "id": "technique.display.layered-subject-occlusion",
+      "version": 1,
+      "status": "approved",
+      "semanticProblem": "A short hook needs large editorial hierarchy while the presenter remains continuously visible.",
+      "useWhen": [
+        "the copy can be reduced to a few horizontal display phrases",
+        "subject edges are stable enough for foreground and background type"
+      ],
+      "avoidWhen": [
+        "the words would cover the eyes, mouth, or essential gesture",
+        "ordinary bilingual captions are being mistaken for hook typography"
+      ],
+      "motionGrammar": "presenter remains full-frame -> one display phrase establishes a foreground or background plane -> the presenter occludes part of a larger phrase -> later words replace or defocus the previous layer without vertical text",
+      "assetRefs": ["motion.typography.layered-display.v1"],
+      "source": "0813-yujun-boss-content-memory",
+      "knownUses": ["0813-yujun-boss-content-memory@approved-master"],
+      "review": {
+        "status": "approved-by-user",
+        "evidence": "The user retained the layered horizontal hook typography in the approved final edit."
+      }
+    },
+    {
+      "id": "technique.opening.counterclaim-subject-reveal",
+      "version": 1,
+      "status": "approved",
+      "semanticProblem": "The opening must reject the obvious answer and reveal the true subject within the first three seconds.",
+      "useWhen": [
+        "the hook contains one short counterclaim and one clear reveal",
+        "the presenter can remain the visual anchor"
+      ],
+      "avoidWhen": [
+        "the argument needs a long setup",
+        "the true claim cannot be read around the subject"
+      ],
+      "motionGrammar": "extreme or tight presenter frame with the expected answer -> long-tail pull-back and defocus demote that answer -> the true claim expands behind or around the presenter and lands with a separately licensed outward whoosh",
+      "assetRefs": ["motion.camera.long-tail-scale.v1", "motion.typography.layered-display.v1", "sfx.opening-pullback-whoosh.direction.v1"],
+      "reference": "library/references/reference.opening.boss-content-memory.v1/reference.yaml",
+      "knownUses": ["0813-yujun-boss-content-memory@approved-master"],
+      "review": {
+        "status": "approved-by-user",
+        "evidence": "The user explicitly approved the visual and sound relationship. The original audio master is intentionally not bundled."
+      }
+    },
+    {
+      "id": "technique.transition.pixel-resolve",
+      "version": 1,
+      "status": "approved",
+      "semanticProblem": "A digital chapter change needs visible assembly or reset without becoming a presentation slide.",
+      "useWhen": [
+        "the topic supports a digital, system, or reconstruction metaphor",
+        "the pixel field can resolve into the incoming scene"
+      ],
+      "avoidWhen": [
+        "the same effect already appeared at an adjacent boundary",
+        "pixelation has no relationship to either scene"
+      ],
+      "motionGrammar": "outgoing image breaks into controlled cells -> cells reorganize across a black or scene-derived field -> incoming scene resolves and holds cleanly",
+      "assetRefs": ["transition.pixel-resolve.v1"],
+      "source": "0813-yujun-boss-content-memory",
+      "review": {
+        "status": "approved-by-repeated-user-direction",
+        "evidence": "The user repeatedly retained pixel-style chapter transitions when they supported the topic."
+      }
+    }
+  ]
+}

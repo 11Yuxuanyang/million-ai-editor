@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "style_profile": "opening-display-heavy-v1",
+  "opening_body_captions": false,
+  "instruction": "Copy this structure into the episode directory as display-type.json. Replace all copy, timing, layout and motion values from current episode facts.",
+  "events": [
+    {
+      "id": "opening-hook",
+      "text": "第一步先确定问题",
+      "source_cues": [1],
+      "display_start": 0.1,
+      "display_end": 1.9,
+      "layout": {
+        "mode": "center-symmetric",
+        "line_breaks": ["第一步", "先确定问题"]
+      },
+      "motion": {
+        "family": "semantic-rise",
+        "from_y_px": [180, 220],
+        "duration_seconds": [0.78, 0.9],
+        "ease": "expo.out",
+        "trigger": "current-episode-speech-groups"
+      },
+      "sound_ref": null
+    },
+    {
+      "id": "selective-result",
+      "text": "关键结果",
+      "source_cues": [4],
+      "display_start": 5.2,
+      "display_end": 6.4,
+      "layout": {
+        "mode": "visually-balanced"
+      },
+      "motion": {
+        "family": "impact-word",
+        "scale_from": 1.2,
+        "duration_seconds": 0.44,
+        "ease": "back.out(1.5)"
+      },
+      "sound_ref": "optional-visible-action-cue"
+    }
+  ]
+}

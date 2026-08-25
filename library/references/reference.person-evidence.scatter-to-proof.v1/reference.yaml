@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "reference.person-evidence.scatter-to-proof.v1",
+  "title": "先让真实材料说话，再回到人物完成解释",
+  "category": "person-evidence-relation",
+  "status": "approved",
+  "source": {
+    "assetId": "asset.case.0813.formal-master",
+    "relativePath": "videos/0813-yujun-boss-content-memory/deliverables/与君AI-老板内容记忆-正式母版-1080p60.mp4",
+    "timeRange": {
+      "start": "00:00:08.070",
+      "end": "00:00:14.910"
+    }
+  },
+  "semanticProblem": "要证明信息散落在不同载体里，同时避免把人物、证据和装饰堆在同一帧争抢注意力。",
+  "visibleMotion": [
+    "语音与员工电脑实拍依照旁白逐一全屏接管画面",
+    "说到客户问题时回到人物，让人物重新成为解释主体",
+    "聊天记录卡移入人物侧边安全区并放大，其余证据退为次级"
+  ],
+  "useWhen": [
+    "一句话包含两个以上可核验材料，且材料之间有明确先后关系",
+    "人物需要承担解释，真实材料需要承担证明"
+  ],
+  "avoidWhen": [
+    "素材来源不清或无法证明旁白中的具体事实",
+    "多个证据没有主次，只会形成信息墙"
+  ],
+  "rights": {
+    "status": "reference-only",
+    "license": "项目自制剪辑；画面含用户素材与单期已授权素材。仅复用人物/证据的编排逻辑，生产时重新核验每份证据的权利。"
+  },
+  "productionEligibility": "recipe-only",
+  "review": {
+    "status": "approved",
+    "basis": "来自 0813 正式母版中“真实信息散落”段及已确认 Motion Storyboard。"
+  }
+}

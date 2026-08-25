@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "reference.transition.film-burn-screen.v1",
+  "title": "曝光峰值藏切点的胶片烧片转场",
+  "category": "transition",
+  "status": "approved",
+  "source": {
+    "assetId": "asset.transition.film-burn-red-orange-screen.v1",
+    "relativePath": "references/asset-library/overlays/film-burn-red-orange-screen-v1.mp4",
+    "timeRange": {
+      "start": "00:00:00.000",
+      "end": "00:00:01.200"
+    }
+  },
+  "semanticProblem": "章节硬切需要短暂的物理曝光感来隐藏接缝，但不能让红橙色污染新场景。",
+  "visibleMotion": [
+    "A 镜头保持可见，烧片以 Screen 混合模式快速抬升曝光",
+    "在近白峰值中心切到 B 镜头",
+    "B 镜头在烧片尾部保持可见，并在尾端恢复自然颜色"
+  ],
+  "useWhen": [
+    "章节边界需要快速、模拟介质感的曝光洗切",
+    "A 与 B 都有足够中暗部，让曝光变化可读"
+  ],
+  "avoidWhen": [
+    "素材本身接近纯白，曝光峰值无法形成遮蔽",
+    "证据画面需要在转场全程保持准确颜色"
+  ],
+  "rights": {
+    "status": "licensed",
+    "license": "视觉素材为 iNeedFX Film Burns 片段，CC BY 4.0，需署名 iNeedFx.com；注册表和配方文档保存完整来源。"
+  },
+  "productionEligibility": "licensed-assets",
+  "review": {
+    "status": "approved",
+    "basis": "references/asset-library/registry.json 中已批准条目 transition.film-burn-screen-composite.v1。"
+  }
+}

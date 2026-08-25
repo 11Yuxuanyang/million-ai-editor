@@ -1,0 +1,31 @@
+/* Subject Isolation: Selective Focus + Vignette. Not a Rack Focus move. */
+.subject-isolation-blur,
+.subject-isolation-vignette {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+.subject-isolation-blur {
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  -webkit-mask-image:
+    radial-gradient(ellipse 28% 43% at var(--subject-x, 54%) var(--subject-y, 43%), transparent 0 48%, #000 79% 100%),
+    linear-gradient(to bottom, #000 0 70%, transparent 91% 100%);
+  -webkit-mask-composite: source-in;
+  mask-image:
+    radial-gradient(ellipse 28% 43% at var(--subject-x, 54%) var(--subject-y, 43%), transparent 0 48%, #000 79% 100%),
+    linear-gradient(to bottom, #000 0 70%, transparent 91% 100%);
+  mask-composite: intersect;
+}
+
+.subject-isolation-vignette {
+  background: radial-gradient(
+    ellipse 34% 52% at var(--subject-x, 54%) var(--subject-y, 43%),
+    rgba(8, 10, 8, 0) 0 44%,
+    rgba(8, 10, 8, 0.34) 72%,
+    rgba(8, 10, 8, 0.82) 100%
+  );
+  -webkit-mask-image: linear-gradient(to bottom, #000 0 70%, transparent 91% 100%);
+  mask-image: linear-gradient(to bottom, #000 0 70%, transparent 91% 100%);
+}

@@ -1,0 +1,12 @@
+[project]
+name = "million-ai-editor"
+version = "3.0.0"
+requires-python = ">=3.11"
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<10"]
+
+[tool.pytest.ini_options]
+testpaths = ["system/tests"]
+python_files = ["test_*.py"]
+addopts = "-ra"

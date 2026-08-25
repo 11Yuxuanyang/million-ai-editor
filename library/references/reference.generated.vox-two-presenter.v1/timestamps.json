@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "referenceId": "reference.generated.vox-two-presenter.v1",
+  "timeRange": {
+    "start": "00:00:20.000",
+    "end": "00:00:26.000"
+  },
+  "moments": [
+    {"at": "00:00:20.000", "meaning": "生成角色随人才定义进入"},
+    {"at": "00:00:22.000", "meaning": "人物和 AI 形成解释关系"},
+    {"at": "00:00:24.000", "meaning": "两位授权人物完成 setup"},
+    {"at": "00:00:26.000", "meaning": "经验材料进入并形成结果对照"}
+  ]
+}

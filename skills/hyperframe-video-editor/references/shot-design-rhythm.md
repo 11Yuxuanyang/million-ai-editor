@@ -1,0 +1,16 @@
+# 创作可选库：节奏与蒙太奇
+
+这是统一创作可选库的一部分，不是独立资产层。每条只提示一种可能的画面；选择前先判断它是否帮助观众理解或感受当前内容，写分镜时用可见的画面语言描述，不把检索标签或技术参数直接交给观众。
+
+| 检索标签 | 看见什么 | 适合哪里 | 过去用在哪里 |
+| --- | --- | --- | --- |
+| [`beat-cut-moves`](https://github.com/Vincentwei1021/video-shotcraft/blob/d4915443232e89527fdc9d7e79f132ba411fc440/references/shots/rhythm/beat-cut-moves.md) | 硬切当节拍乐器的两式——递进硬切串（间隔减半加速逼近）与连闪定格（三次白闪各切一个裁切） | 高光/冲刺段落把"切"本身打成鼓点；A 式预告片式加速逼近，B 式颁奖连拍仪式感 | Shotcraft 上游样片；本地暂无成片记录。 |
+| [`beat-step-list-theme-cycle`](https://github.com/Vincentwei1021/video-shotcraft/blob/d4915443232e89527fdc9d7e79f132ba411fc440/references/shots/rhythm/beat-step-list-theme-cycle.md) | 深色场里的词语随节拍一行行上移，中间的胶囊接住当前词并换色，背景也在同一拍翻成新的颜色。 | 展示同一产品的多种气质，或需要音乐把文字、色彩和场景一起推动时。 | Shotcraft 上游样片；本地暂无成片记录。 |
+| [`montage-rhythm-moves`](https://github.com/Vincentwei1021/video-shotcraft/blob/d4915443232e89527fdc9d7e79f132ba411fc440/references/shots/rhythm/montage-rhythm-moves.md) | 蒙太奇节奏三式——drop-blackout-slam 黑场蓄爆、wright-triple-cut 三连咔哒特写、domino-cascade 多米诺连锁入场 | 段落级节奏设计：蓄力爆发（A）、流程速写（B）、开场连锁（C）；与 beat-cut-moves（切点排布）互补——这三式管"段落的呼吸形状" | Shotcraft 上游样片；本地暂无成片记录。 |
+| [`panel-grid-moves`](https://github.com/Vincentwei1021/video-shotcraft/blob/d4915443232e89527fdc9d7e79f132ba411fc440/references/shots/rhythm/panel-grid-moves.md) | 分格节奏三式——grid-flash-mosaic 九宫格闪切填墙吞屏、flip-grid-reflow 网格集体重排、comic-panel-split 漫画斜格三机位并列 | 把"格子"当节奏器：逐格踩拍亮相（A）、节拍点集体换位（B）、同主体多机位定格并列（C）；三式都吃拍点 | Shotcraft 上游样片；本地暂无成片记录。 |
+| [`rhythm-interrupt-moves`](https://github.com/Vincentwei1021/video-shotcraft/blob/d4915443232e89527fdc9d7e79f132ba411fc440/references/shots/rhythm/rhythm-interrupt-moves.md) | 打断节奏两式——jump-cut-punch-in 三级跳切推近、strobe-black-frames 频闪黑帧 | 用"打断连续性"本身当节奏器：顿挫推近（B）、窒息逼近（C）；与 beat-cut-moves（切点排布）、montage-rhythm（段落呼吸）互补 | Shotcraft 上游样片；本地暂无成片记录。 |
+| [`sakuga-timing-shift`](https://github.com/Vincentwei1021/video-shotcraft/blob/d4915443232e89527fdc9d7e79f132ba411fc440/references/shots/rhythm/sakuga-timing-shift.md) | 一拍三转一拍一——元素先以每 3 帧一步的手翻书顿挫移动，高潮瞬间切成逐帧丝滑冲刺，帧率量化的突变本身就是看点 | 单元素的强调性位移（卡片入场、指标冲线）；需要"手工感→高潮爆发"反差的段落 | Shotcraft 上游样片；本地暂无成片记录。 |
+| [`smear-multiples`](https://github.com/Vincentwei1021/video-shotcraft/blob/d4915443232e89527fdc9d7e79f132ba411fc440/references/shots/rhythm/smear-multiples.md) | 残像分身——卡片高速横移时拖 4 个清晰可数的半透明分身副本，落位瞬间收拢合一；motion blur 的动画式平替 | 元素高速位移段想要"漫画式速度感"而非"摄影式模糊"时；与 CameraMotionBlur 二选一 | Shotcraft 上游样片；本地暂无成片记录。 |
+| [`spectrum-morph-ui`](https://github.com/Vincentwei1021/video-shotcraft/blob/d4915443232e89527fdc9d7e79f132ba411fc440/references/shots/rhythm/spectrum-morph-ui.md) | 频谱化 UI——标题下划线裂成一排竖条按频谱跳动两小节，再收拢还原成直线；音乐可视化长在 UI 上 | 有音轨片子的声画同步高光段（BGM 副歌起/鼓点密集段）；标题字卡、章节页的下划线/分隔线构件 | Shotcraft 上游样片；本地暂无成片记录。 |
+| [`speed-ramp-freeze`](https://github.com/Vincentwei1021/video-shotcraft/blob/d4915443232e89527fdc9d7e79f132ba411fc440/references/shots/rhythm/speed-ramp-freeze.md) | 帧号非线性 remap 的两款节奏手法——变速（快→0.2x 凝视→快）与定格标注（流动→定格圈注→解冻） | 卡片流/长横移中把一个重点"放慢/停下给人看"；教学解说语境用定格标注 | Shotcraft 上游样片；本地暂无成片记录。 |
+| [`trailer-grammar-moves`](https://github.com/Vincentwei1021/video-shotcraft/blob/d4915443232e89527fdc9d7e79f132ba411fc440/references/shots/rhythm/trailer-grammar-moves.md) | 预告片语法三式——trailer-bumper 前置速剪钩子、card-footage-cadence 字卡穿插对话、smash-cut 猛切入定 | 预告片的三个结构性时刻：开场怎么钩（A）、中段怎么对话（B）、高潮怎么收（C）；三式合用即一支预告片的骨架 | Shotcraft 上游样片；本地暂无成片记录。 |

@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "technique.pixel-resolve-bridge.v1",
+  "durationSeconds": 1.05,
+  "palette": {
+    "background": "#000000",
+    "cell": "#000000"
+  },
+  "sourceFrameRequired": true,
+  "pixelSource": {
+    "sampleColumns": 20,
+    "sampleRows": 12,
+    "upscale": "nearest-neighbor"
+  },
+  "grid": {
+    "columns": 20,
+    "rows": 12,
+    "gapPixels": 2
+  },
+  "motion": {
+    "sourceFreezeSeconds": 0.12,
+    "coverSeconds": 0.26,
+    "holdSeconds": 0.08,
+    "resolveSeconds": 0.28,
+    "copyRevealSeconds": 0.2
+  },
+  "safeRange": {
+    "columns": [12, 30],
+    "rows": [7, 18],
+    "durationSeconds": [0.75, 1.35]
+  }
+}

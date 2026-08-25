@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://million-ai-editor.local/schemas/reference-card.schema.json",
+  "title": "Visual Reference Card",
+  "type": "object",
+  "required": [
+    "schemaVersion",
+    "referenceId",
+    "assetId",
+    "semanticProblem",
+    "useWhen",
+    "avoidWhen",
+    "rights"
+  ],
+  "properties": {
+    "schemaVersion": {"const": 1},
+    "referenceId": {"type": "string", "minLength": 1},
+    "assetId": {"type": "string", "pattern": "^asset\\."},
+    "semanticProblem": {"type": "string", "minLength": 1},
+    "useWhen": {"type": "array", "minItems": 1, "items": {"type": "string"}},
+    "avoidWhen": {"type": "array", "minItems": 1, "items": {"type": "string"}},
+    "rights": {"type": "object"}
+  },
+  "additionalProperties": true
+}

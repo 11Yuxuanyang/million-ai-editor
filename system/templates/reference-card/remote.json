@@ -1,0 +1,8 @@
+{
+  "schemaVersion": 1,
+  "referenceId": "reference.template.v1",
+  "provider": "google-drive",
+  "status": "not-migrated",
+  "driveFileId": null,
+  "webViewLink": null
+}

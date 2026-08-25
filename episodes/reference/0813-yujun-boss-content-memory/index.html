@@ -1,0 +1,771 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1920, height=1080" />
+    <title>与君AI｜老板内容记忆</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./assets/vendor/gsap.min.js"></script>
+  </head>
+  <body>
+    <main
+      id="episode"
+      data-composition-id="0813-yujun-boss-content-memory"
+      data-start="0"
+      data-width="1920"
+      data-height="1080"
+      data-fps="60"
+      data-duration="80"
+    >
+      <video id="a-roll" class="base-media" src="assets/media/a-roll-1080p60.mp4" muted playsinline data-start="0" data-duration="80" data-track-index="0"></video>
+      <audio id="a-roll-audio" src="assets/media/a-roll-1080p60.mp4" data-start="0" data-duration="80" data-track-index="100" data-volume="1"></audio>
+
+      <section id="opening-back" class="clip opening opening-back" data-start="0" data-duration="3.8182" data-track-index="2" data-layout-allow-overlap data-layout-allow-occlusion>
+        <div class="opening-minor"><span>不是文案<i></i></span><span>不是剪辑<i></i></span></div>
+        <div class="opening-hero"><span>老板</span><span>本人</span></div>
+      </section>
+      <video id="opening-cutout" class="clip opening-cutout" src="assets/media/opening-cutout-v2.webm" muted playsinline data-start="0" data-duration="3.8182" data-track-index="3"></video>
+      <section id="opening-front" class="clip opening opening-front" data-start="0" data-duration="3.8182" data-track-index="4" data-layout-allow-overlap>
+        <div class="opening-kicker">老板 IP 最贵的</div>
+        <div class="opening-corner">YUJUN AI / CONTENT MEMORY</div>
+      </section>
+
+      <section id="question-scene" class="clip scene question-scene" data-start="3.8182" data-duration="4.2545" data-track-index="10" data-layout-allow-overlap>
+        <div class="question-echo question-echo-a">这一期想讲什么？</div>
+        <div class="question-echo question-echo-b">这一期想讲什么？</div>
+        <div class="question-main"><small>TEAM → FOUNDER</small><strong>老板，这一期想讲什么？</strong></div>
+      </section>
+
+      <section id="scatter-scene" class="clip scene scatter-scene" data-start="8.0727" data-duration="6.8364" data-track-index="12" data-layout-allow-overlap>
+        <div class="evidence evidence-voice">
+          <header><i></i><span>微信语音</span><time>01:24</time></header>
+          <img src="assets/evidence/voice-waveform.png" alt="本期真实语音波形" />
+          <footer>观点 / 判断 / 经验</footer>
+        </div>
+        <div class="evidence evidence-file">
+          <header><i></i><span>产品资料</span><time>PITCH DECK</time></header>
+          <img src="assets/evidence/product-deck-slide.png" alt="与君AI真实产品资料" />
+          <footer>真实项目文件</footer>
+        </div>
+        <div class="evidence evidence-chat">
+          <header><i></i><span>客户问题</span><time>未归档</time></header>
+          <p>“老板要做 AI，<br />第一步应该改哪里？”</p>
+          <footer>散落在聊天记录</footer>
+        </div>
+        <div class="scatter-label">内容并不少，只是没有被公司记住</div>
+      </section>
+
+      <section id="repeat-scene" class="clip scene repeat-scene" data-start="14.9091" data-duration="9.9636" data-track-index="12" data-layout-allow-overlap>
+        <div class="handoff"><small>老板原本想要</small><strong>把内容交出去</strong></div>
+        <div class="repeat-ticket ticket-one"><span>01</span><b>重新解释</b></div>
+        <div class="repeat-ticket ticket-two"><span>02</span><b>重新解释</b></div>
+        <div class="repeat-ticket ticket-three"><span>03</span><b>还是重新解释</b></div>
+        <div class="repeat-result">交出去的不是工作<br /><strong>只是多了一轮沟通</strong></div>
+      </section>
+
+      <section id="principle-scene" class="clip scene principle-scene" data-start="24.8727" data-duration="8.6546" data-track-index="14" data-layout-allow-overlap>
+        <div class="wrong-diagnosis">文案写得慢<i></i></div>
+        <div class="right-diagnosis">公司根本<br /><strong>记不住老板</strong></div>
+        <div class="rule-rail">
+          <span class="rule-count">1</span><span class="rule-count">2</span><span class="rule-arrow">→</span><b>交给 AI</b>
+        </div>
+        <div class="rule-copy">任何做两遍以上的工作，都值得被 AI 化</div>
+      </section>
+
+      <section id="memory-scene" class="clip scene memory-scene" data-start="33.5273" data-duration="10" data-track-index="14" data-layout-allow-overlap>
+        <div class="memory-denial">不是让 AI 随便写</div>
+        <div class="memory-panel">
+          <div class="memory-title"><small>LIVE COMPANY MEMORY</small><strong>企业记忆</strong><em>持续更新</em></div>
+          <div class="memory-spine"><i></i><i></i><i></i></div>
+          <article class="memory-source source-voice"><span>01</span><b>老板语音</b><small>观点 / 判断</small></article>
+          <article class="memory-source source-product"><span>02</span><b>产品资料</b><small>方案 / 案例</small></article>
+          <article class="memory-source source-client"><span>03</span><b>客户问题</b><small>需求 / 异常</small></article>
+          <div class="memory-index"><span>2026.08</span><b>已索引</b></div>
+        </div>
+      </section>
+
+      <section id="retrieve-scene" class="clip scene retrieve-scene" data-start="43.5273" data-duration="7.8545" data-track-index="14" data-layout-allow-overlap>
+        <div class="idea-chip">老板的新想法</div>
+        <div class="retrieve-panel">
+          <div class="retrieve-focus"><i></i><b>正在调用</b></div>
+          <div class="retrieve-item"><small>01</small><strong>过去的观点</strong></div>
+          <div class="retrieve-item"><small>02</small><strong>做过的案例</strong></div>
+          <div class="retrieve-item"><small>03</small><strong>积累的素材</strong></div>
+        </div>
+        <div class="output-doc"><small>OUTPUT</small><b>文案</b></div>
+        <div class="output-arrow">→</div>
+        <div class="output-edit"><small>NEXT</small><b>剪辑</b><i></i><i></i><i></i></div>
+      </section>
+
+      <section id="decision-scene" class="clip scene decision-scene" data-start="51.3818" data-duration="3.5637" data-track-index="14" data-layout-allow-overlap>
+        <div class="decision decision-left"><small>01</small><strong>做判断</strong></div>
+        <div class="decision decision-right"><small>02</small><strong>最终确认</strong><i>✓</i></div>
+        <div class="decision-note">老板只保留真正重要的责任</div>
+      </section>
+
+      <section id="asset-scene" class="clip scene asset-scene" data-start="54.9455" data-duration="6.5818" data-track-index="14" data-layout-allow-overlap>
+        <div class="asset-title"><small>EVERY EXPRESSION STAYS</small><strong>每一次表达，都成为资产</strong></div>
+        <div class="asset-stack">
+          <article><small>08 / 10</small><b>老板如何判断客户价值</b></article>
+          <article><small>08 / 11</small><b>产品为什么这样设计</b></article>
+          <article><small>08 / 12</small><b>这次项目积累了什么</b></article>
+        </div>
+      </section>
+
+      <section id="third-scene" class="clip scene third-scene" data-start="61.5273" data-duration="2.5818" data-track-index="16" data-layout-allow-overlap>
+        <div class="count count-one">1</div><div class="count count-two">2</div><div class="count count-three">3<i></i></div>
+        <div class="third-copy">说过两遍，就不该再从头说第三遍</div>
+      </section>
+
+      <section id="brand-scene" class="clip scene brand-scene" data-start="64.1091" data-duration="5.8182" data-track-index="14" data-layout-allow-overlap>
+        <div class="brand-lock"><small>ENTERPRISE AI STUDIO</small><strong>与君 AI</strong></div>
+        <div class="brand-step step-one"><span>01</span><b>找到重复</b></div>
+        <div class="brand-step step-two"><span>02</span><b>接入 AI</b></div>
+        <div class="brand-step step-three"><span>03</span><b>人来验收</b></div>
+      </section>
+
+      <section id="cta-scene" class="clip scene cta-scene" data-start="69.9273" data-duration="10.0727" data-track-index="14" data-layout-allow-overlap>
+        <div class="cta-message"><small>私信关键词</small><strong>内容</strong><span>+ 发送过去三条视频</span></div>
+        <div class="diagnosis">
+          <span>文案</span><span>素材</span><strong>真正能运转的流程</strong>
+        </div>
+        <div class="cta-brand">与君 AI · 帮企业把 AI 接进真实工作</div>
+      </section>
+
+      <!-- Network footage: editorial context, never presented as a Yujun AI client case. -->
+      <video id="voice-note-broll" class="clip real-broll" src="assets/real/stock/voice-message-pexels-5941023.mp4" muted playsinline data-start="8.18" data-duration="2.94" data-media-start="0.9" data-track-index="30"></video>
+      <section id="voice-note-label" class="clip broll-caption" data-start="8.18" data-duration="2.94" data-track-index="31" data-layout-allow-overlap>
+        <small>行业场景 / VOICE NOTE</small><strong>观点，在语音里</strong>
+      </section>
+
+      <video id="team-computers-broll" class="clip real-broll" src="assets/real/stock/team-computers-pexels-12283404.mp4" muted playsinline data-start="11.12" data-duration="1.60" data-media-start="1.65" data-track-index="33"></video>
+      <section id="team-computers-label" class="clip broll-caption broll-caption-right" data-start="11.12" data-duration="1.60" data-track-index="34" data-layout-allow-overlap>
+        <small>行业场景 / TEAM WORK</small><strong>案例，在员工电脑里</strong>
+      </section>
+
+      <video id="office-work-broll" class="clip real-broll morph-broll" src="assets/real/stock/office-work-pexels-8048240.mp4" muted playsinline data-start="15.18" data-duration="6.22" data-media-start="1.25" data-track-index="35"></video>
+      <section id="office-work-label" class="clip broll-caption" data-start="15.18" data-duration="3.45" data-track-index="36" data-layout-allow-overlap>
+        <small>行业场景 / CONTENT TEAM</small><strong>团队开工，还是要等老板</strong>
+      </section>
+
+      <!-- Chapter transitions: one recurring visual mainline, one semantic pixel resolve. -->
+      <section id="transition-diagnosis" class="clip chapter-transition contour-transition" data-start="24.28" data-duration="1.42" data-track-index="72" data-layout-allow-overlap data-layout-allow-occlusion>
+        <img src="assets/transition-native/contour-lines.svg" alt="" />
+        <div><small>THE REAL BOTTLENECK</small><strong>真正的问题</strong><span>公司记不住老板</span></div>
+      </section>
+
+      <section id="offer-cover-broll" class="clip project-broll document-broll" data-start="29.22" data-duration="3.86" data-track-index="37" data-layout-allow-overlap>
+        <div class="document-stage">
+          <div class="document-copy"><small>真实 Offer Doc</small><strong>做两遍以上<br />就值得被 AI 化</strong><span>不是随便生成，而是重建工作方式</span></div>
+          <img src="assets/real/project/offer-cover.png" alt="与君AI企业AI服务方案真实封面" />
+        </div>
+      </section>
+
+      <section id="transition-memory" class="clip chapter-transition pixel-transition" data-start="33.05" data-duration="1.38" data-track-index="73" data-layout-allow-overlap data-layout-allow-occlusion>
+        <div class="pixel-field" aria-hidden="true"></div>
+        <div><small>FROM FRAGMENTS TO MEMORY</small><strong>散落的信息</strong><span>变成企业记忆</span></div>
+      </section>
+
+      <section id="action-loop-broll" class="clip project-broll action-loop-broll" data-start="34.36" data-duration="3.26" data-track-index="38" data-layout-allow-overlap>
+        <img src="assets/real/project/pitch-action-loop.png" alt="与君AI真实业务闭环页面" />
+        <div class="source-chip">真实项目资料 / AI ACTION LOOP</div>
+      </section>
+
+      <video id="editing-timeline-broll" class="clip real-broll editing-broll" src="assets/real/stock/editing-timeline-pexels-1536315.mp4" muted playsinline data-start="49.80" data-duration="1.58" data-media-start="2.2" data-track-index="39"></video>
+      <section id="editing-broll-label" class="clip broll-caption broll-caption-right" data-start="49.80" data-duration="1.58" data-track-index="40" data-layout-allow-overlap>
+        <small>行业场景 / EDITING TIMELINE</small><strong>形成文案，再进入剪辑</strong>
+      </section>
+
+      <section id="offer-loop-broll" class="clip project-broll offer-loop-broll" data-start="55.12" data-duration="3.02" data-track-index="41" data-layout-allow-overlap>
+        <div class="document-stage document-stage-reverse">
+          <img src="assets/real/project/offer-loop.png" alt="与君AI真实服务闭环页面" />
+          <div class="document-copy"><small>真实 Offer Doc</small><strong>每一次表达<br />都留在系统里</strong><span>不是一次性输出，而是可复用资产</span></div>
+        </div>
+      </section>
+
+      <section id="transition-brand" class="clip chapter-transition contour-transition contour-transition-return" data-start="63.72" data-duration="1.46" data-track-index="74" data-layout-allow-overlap data-layout-allow-occlusion>
+        <img src="assets/transition-native/contour-lines-return.svg" alt="" />
+        <div><small>REPEAT LESS · REMEMBER MORE</small><strong>重复工作</strong><span>交给系统</span></div>
+      </section>
+
+      <section id="history-montage" class="clip history-montage" data-start="69.93" data-duration="3.92" data-track-index="42" data-layout-allow-overlap>
+        <figure><img src="assets/real/history/video-01.jpg" alt="与君AI过去视频一" /></figure>
+        <figure><img src="assets/real/history/video-02.jpg" alt="与君AI过去视频二" /></figure>
+        <figure><img src="assets/real/history/video-03.jpg" alt="与君AI过去视频三" /></figure>
+        <div><small>真实历史内容</small><strong>发三条过去的视频</strong><span>让系统先理解你已经讲过什么</span></div>
+      </section>
+
+      <section id="captions">
+
+        <div id="cap-01" class="clip body-caption" data-start="3.8559" data-duration="1.2164" data-track-index="90">
+          <div class="caption-cn">因为每拍一条视频</div>
+          <div class="caption-en">Every time the team shoots a video,</div>
+        </div>
+        <div id="cap-02" class="clip body-caption" data-start="5.0923" data-duration="1.32" data-track-index="90">
+          <div class="caption-cn">团队还是要重新问他</div>
+          <div class="caption-en">they have to ask all over again:</div>
+        </div>
+        <div id="cap-03" class="clip body-caption" data-start="6.4741" data-duration="1.6109" data-track-index="90">
+          <div class="caption-cn">老板这一期想讲什么</div>
+          <div class="caption-en">"What should this episode be about?"</div>
+        </div>
+        <div id="cap-04" class="clip body-caption" data-start="8.1105" data-duration="1.3981" data-track-index="90">
+          <div class="caption-cn">老板不是没有东西可以讲</div>
+          <div class="caption-en">It isn't that the founder has nothing to say.</div>
+        </div>
+        <div id="cap-05" class="clip body-caption" data-start="9.5286" data-duration="1.5745" data-track-index="90">
+          <div class="caption-cn">他的观点在微信语音里</div>
+          <div class="caption-en">His ideas are buried in voice messages.</div>
+        </div>
+        <div id="cap-06" class="clip body-caption" data-start="11.1286" data-duration="1.5745" data-track-index="90">
+          <div class="caption-cn">案例在员工电脑里</div>
+          <div class="caption-en">Cases live on employees' computers.</div>
+        </div>
+        <div id="cap-07" class="clip body-caption" data-start="12.7286" data-duration="2.1927" data-track-index="90">
+          <div class="caption-cn">客户问题散落在聊天记录里面</div>
+          <div class="caption-en">Customer questions are scattered across chats.</div>
+        </div>
+        <div id="cap-08" class="clip body-caption" data-start="14.9468" data-duration="1.6109" data-track-index="90">
+          <div class="caption-cn">好不容易招了文案和剪辑</div>
+          <div class="caption-en">You finally hire writers and editors,</div>
+        </div>
+        <div id="cap-09" class="clip body-caption" data-start="16.6195" data-duration="1.4655" data-track-index="90">
+          <div class="caption-cn">但是在每次开工之前</div>
+          <div class="caption-en">but before every project starts...</div>
+        </div>
+        <div id="cap-10" class="clip body-caption" data-start="18.1105" data-duration="2.3745" data-track-index="90">
+          <div class="caption-cn">所有人还是要等老板重新讲一遍</div>
+          <div class="caption-en">everyone still waits for the founder to repeat it all.</div>
+        </div>
+        <div id="cap-11" class="clip body-caption" data-start="20.5105" data-duration="1.8709" data-track-index="90">
+          <div class="caption-cn">老板本来想要把内容交出去</div>
+          <div class="caption-en">He wanted to hand content production off,</div>
+        </div>
+        <div id="cap-12" class="clip body-caption" data-start="22.4014" data-duration="2.4836" data-track-index="90">
+          <div class="caption-cn">但是却多了一项要反复解释的工作</div>
+          <div class="caption-en">but gained another job: explaining it again.</div>
+        </div>
+        <div id="cap-13" class="clip body-caption" data-start="24.9105" data-duration="1.3254" data-track-index="90">
+          <div class="caption-cn">问题不是文案写得慢</div>
+          <div class="caption-en">The problem isn't slow writing.</div>
+        </div>
+        <div id="cap-14" class="clip body-caption" data-start="26.2559" data-duration="1.7927" data-track-index="90">
+          <div class="caption-cn">而是公司根本记不住老板</div>
+          <div class="caption-en">The company simply can't remember the founder.</div>
+        </div>
+        <div id="cap-15" class="clip body-caption" data-start="28.0741" data-duration="2.52" data-track-index="90">
+          <div class="caption-cn">在与君AI我们有一条最简单的原则</div>
+          <div class="caption-en">At Yujun AI, we follow one simple rule:</div>
+        </div>
+        <div id="cap-16" class="clip body-caption" data-start="30.7286" data-duration="1.5073" data-track-index="90">
+          <div class="caption-cn">任何做两遍以上的工作</div>
+          <div class="caption-en">Any task done more than twice</div>
+        </div>
+        <div id="cap-17" class="clip body-caption" data-start="32.2559" data-duration="1.2836" data-track-index="90">
+          <div class="caption-cn">都值得被AI化</div>
+          <div class="caption-en">deserves to be AI-enabled.</div>
+        </div>
+        <div id="cap-18" class="clip body-caption" data-start="33.565" data-duration="3.8291" data-track-index="90">
+          <div class="caption-cn">所以我们改造老板内容的第一步不是让AI随便去写文案</div>
+          <div class="caption-en">Our first step isn't letting AI write anything it wants.</div>
+        </div>
+        <div id="cap-19" class="clip body-caption" data-start="37.4195" data-duration="1.6528" data-track-index="90">
+          <div class="caption-cn">而是把老板过去的语音</div>
+          <div class="caption-en">We collect the founder's past voice notes,</div>
+        </div>
+        <div id="cap-20" class="clip body-caption" data-start="39.0923" data-duration="1.2527" data-track-index="90">
+          <div class="caption-cn">产品资料客户问题</div>
+          <div class="caption-en">product files and customer questions,</div>
+        </div>
+        <div id="cap-21" class="clip body-caption" data-start="40.365" data-duration="3.1745" data-track-index="90">
+          <div class="caption-cn">全部整理成一套可持续更新的企业记忆</div>
+          <div class="caption-en">into a living corporate memory.</div>
+        </div>
+        <div id="cap-22" class="clip body-caption" data-start="43.565" data-duration="1.9745" data-track-index="90">
+          <div class="caption-cn">下一次老板只需要说出一个想法</div>
+          <div class="caption-en">Next time, the founder only needs to share one idea.</div>
+        </div>
+        <div id="cap-23" class="clip body-caption" data-start="45.6377" data-duration="2.2291" data-track-index="90">
+          <div class="caption-cn">系统就能找到老板之前讲过的观点</div>
+          <div class="caption-en">The system retrieves past viewpoints,</div>
+        </div>
+        <div id="cap-24" class="clip body-caption" data-start="47.8923" data-duration="1.7927" data-track-index="90">
+          <div class="caption-cn">做过的案例和积累的素材</div>
+          <div class="caption-en">cases and accumulated materials,</div>
+        </div>
+        <div id="cap-25" class="clip body-caption" data-start="49.8195" data-duration="1.5745" data-track-index="90">
+          <div class="caption-cn">形成文案再进入剪辑</div>
+          <div class="caption-en">then drafts the script and sends it into editing.</div>
+        </div>
+        <div id="cap-26" class="clip body-caption" data-start="51.4195" data-duration="1.9437" data-track-index="90">
+          <div class="caption-cn">老板只负责两件最重要的事情</div>
+          <div class="caption-en">The founder handles only two important things:</div>
+        </div>
+        <div id="cap-27" class="clip body-caption" data-start="53.3832" data-duration="0.5618" data-track-index="90">
+          <div class="caption-cn">做判断</div>
+          <div class="caption-en">make the judgment</div>
+        </div>
+        <div id="cap-28" class="clip body-caption" data-start="53.965" data-duration="0.9927" data-track-index="90">
+          <div class="caption-cn">和最终确认</div>
+          <div class="caption-en">and give final approval.</div>
+        </div>
+        <div id="cap-29" class="clip body-caption" data-start="54.9832" data-duration="2.4109" data-track-index="90">
+          <div class="caption-cn">这样省下来的不只是一条视频的时间</div>
+          <div class="caption-en">This saves more than the time for one video.</div>
+        </div>
+        <div id="cap-30" class="clip body-caption" data-start="57.4923" data-duration="1.5382" data-track-index="90">
+          <div class="caption-cn">每一次表达都会留下来</div>
+          <div class="caption-en">Every expression is retained</div>
+        </div>
+        <div id="cap-31" class="clip body-caption" data-start="59.0559" data-duration="2.4836" data-track-index="90">
+          <div class="caption-cn">成为下一次企业可以直接使用的资产</div>
+          <div class="caption-en">and becomes a reusable company asset.</div>
+        </div>
+        <div id="cap-32" class="clip body-caption" data-start="61.565" data-duration="1.2164" data-track-index="90">
+          <div class="caption-cn">老板说过两遍的话</div>
+          <div class="caption-en">If the founder has said it twice,</div>
+        </div>
+        <div id="cap-33" class="clip body-caption" data-start="62.8014" data-duration="1.32" data-track-index="90">
+          <div class="caption-cn">就不该说第三遍</div>
+          <div class="caption-en">he shouldn't start from scratch a third time.</div>
+        </div>
+        <div id="cap-34" class="clip body-caption" data-start="64.1468" data-duration="1.0655" data-track-index="90">
+          <div class="caption-cn">这里是与君AI</div>
+          <div class="caption-en">This is Yujun AI.</div>
+        </div>
+        <div id="cap-35" class="clip body-caption" data-start="65.2377" data-duration="1.5437" data-track-index="90">
+          <div class="caption-cn">接下来我们会一项项改造</div>
+          <div class="caption-en">Next, we'll transform these workflows one by one:</div>
+        </div>
+        <div id="cap-36" class="clip body-caption" data-start="66.8014" data-duration="3.1382" data-track-index="90">
+          <div class="caption-cn">企业里那些需要不断重复却离不开人的工作</div>
+          <div class="caption-en">repetitive work companies still depend on people to do.</div>
+        </div>
+        <div id="cap-37" class="clip body-caption" data-start="69.965" data-duration="1.2527" data-track-index="90">
+          <div class="caption-cn">如果你也在做老板IP</div>
+          <div class="caption-en">If you're building a founder-led content brand,</div>
+        </div>
+        <div id="cap-38" class="clip body-caption" data-start="71.2377" data-duration="2.2655" data-track-index="90">
+          <div class="caption-cn">那就把过去三条的视频私信给我们</div>
+          <div class="caption-en">DM us three of your previous videos.</div>
+        </div>
+        <div id="cap-39" class="clip body-caption" data-start="73.5286" data-duration="0.9982" data-track-index="90">
+          <div class="caption-cn">我们先帮您判断</div>
+          <div class="caption-en">We'll first diagnose</div>
+        </div>
+        <div id="cap-40" class="clip body-caption" data-start="74.5468" data-duration="1.5018" data-track-index="90">
+          <div class="caption-cn">缺的是文案素材</div>
+          <div class="caption-en">whether you lack scripts or materials,</div>
+        </div>
+        <div id="cap-41" class="clip body-caption" data-start="76.0741" data-duration="3.1382" data-track-index="90">
+          <div class="caption-cn">还是一套真正能够运转的内容生产流程</div>
+          <div class="caption-en">or a content production system that actually runs.</div>
+        </div>
+      </section>
+
+      <audio id="opening-whoosh" src="assets/sfx/opening-pullback-whoosh.m4a" data-start="0.05" data-duration="1.1" data-track-index="110" data-volume="0.7"></audio>
+      <audio id="opening-marker" src="assets/sfx/pen-marker-line.wav" data-start="1.24" data-duration="0.34" data-media-start="0" data-track-index="111" data-volume="0.34"></audio>
+    </main>
+    <script>window.__timelines = window.__timelines || {};
+
+const tl = gsap.timeline({ paused: true });
+const fast = "power4.out";
+const settle = "power3.out";
+
+function reveal(target, at, from = {}, to = {}) {
+  tl.fromTo(
+    target,
+    { autoAlpha: 0, ...from },
+    { autoAlpha: 1, duration: 0.42, ease: fast, ...to },
+    at,
+  );
+}
+
+function hide(target, at, to = {}) {
+  tl.to(target, { autoAlpha: 0, duration: 0.24, ease: "power2.in", ...to }, at);
+}
+
+const pixelField = document.querySelector(".pixel-field");
+if (pixelField && pixelField.children.length === 0) {
+  for (let index = 0; index < 240; index += 1) {
+    pixelField.appendChild(document.createElement("i"));
+  }
+}
+
+// Camera language: every push or pull lands and holds until the next source cut.
+tl.set("#a-roll, #opening-cutout", {
+  scale: 1.13,
+  transformOrigin: "50% 48%",
+}, 0);
+tl.to("#a-roll, #opening-cutout", {
+  scale: 1,
+  duration: 1.18,
+  ease: fast,
+}, 0.03);
+tl.to("#a-roll", { scale: 1.055, duration: 0.3, ease: fast }, 20.62);
+tl.set("#a-roll", { scale: 1 }, 24.8727);
+tl.to("#a-roll", { scale: 1.075, duration: 0.32, ease: fast }, 26.1);
+tl.set("#a-roll", { scale: 1 }, 33.5273);
+tl.to("#a-roll", { scale: 1.052, duration: 0.72, ease: "power3.out" }, 43.72);
+tl.set("#a-roll", { scale: 1 }, 45.32);
+tl.to("#a-roll", { scale: 1.085, duration: 0.28, ease: fast }, 51.42);
+tl.set("#a-roll", { scale: 1 }, 55.12);
+tl.to("#a-roll", { scale: 1.06, duration: 0.34, ease: fast }, 61.5273);
+tl.set("#a-roll", { scale: 1 }, 64.1091);
+
+// 0-3.8s: no body captions. Foreground thesis, subject, then oversized answer behind.
+tl.set(".opening-minor span, .opening-hero, .opening-kicker, .opening-corner", { autoAlpha: 0 }, 0);
+reveal(".opening-kicker", 0.08, { y: 92, scale: 0.9 }, { y: 0, scale: 1, duration: 0.5 });
+reveal(".opening-minor span:first-child", 0.48, { x: -55 }, { x: 0, duration: 0.34 });
+reveal(".opening-minor span:last-child", 0.67, { x: -55 }, { x: 0, duration: 0.34 });
+tl.fromTo(".opening-minor i", { scaleX: 0 }, {
+  scaleX: 1,
+  duration: 0.34,
+  stagger: 0.06,
+  ease: "power3.out",
+}, 1.24);
+hide(".opening-minor", 1.75, { y: -18 });
+reveal(".opening-hero", 1.62, { y: 105, scale: 0.79 }, {
+  y: 0,
+  scale: 1,
+  duration: 0.62,
+});
+reveal(".opening-corner", 2.1, { x: 70 }, { x: 0, duration: 0.38 });
+
+// 3.8-8.1s: the recurring question arrives like a task handed back to the founder.
+tl.set(".question-echo, .question-main", { autoAlpha: 0 }, 0);
+reveal(".question-echo-a", 4.08, { x: 120, scale: 0.78 }, { x: 0, scale: 0.84, duration: 0.38 });
+reveal(".question-echo-b", 4.32, { x: 120, scale: 0.84 }, { x: 0, scale: 0.92, duration: 0.38 });
+reveal(".question-main", 4.72, { x: 145, rotateY: -11 }, {
+  x: 0,
+  rotateY: 0,
+  duration: 0.52,
+});
+hide(".question-echo", 6.9, { x: 40 });
+
+// 8.2-21.4s: real editorial footage establishes where knowledge actually lives.
+tl.fromTo("#voice-note-broll", { scale: 1.09 }, {
+  scale: 1,
+  duration: 2.94,
+  ease: "power2.out",
+}, 8.18);
+tl.fromTo("#voice-note-label", { autoAlpha: 0, y: 45 }, {
+  autoAlpha: 1,
+  y: 0,
+  duration: 0.42,
+  ease: fast,
+}, 8.28);
+tl.fromTo("#team-computers-broll", { scale: 1 }, {
+  scale: 1.045,
+  duration: 1.60,
+  ease: "power2.out",
+}, 11.12);
+tl.fromTo("#team-computers-label", { autoAlpha: 0, x: 70 }, {
+  autoAlpha: 1,
+  x: 0,
+  duration: 0.3,
+  ease: fast,
+}, 11.2);
+tl.set("#office-work-broll", {
+  x: 0,
+  y: 0,
+  borderRadius: 0,
+  scale: 1,
+}, 15.18);
+tl.fromTo("#office-work-broll", { scale: 1.045 }, { scale: 1, duration: 3.08, ease: "power2.out" }, 15.18);
+tl.fromTo("#office-work-label", { autoAlpha: 0, y: 45 }, {
+  autoAlpha: 1,
+  y: 0,
+  duration: 0.42,
+  ease: fast,
+}, 15.3);
+tl.to("#office-work-label", { autoAlpha: 0, duration: 0.24 }, 18.28);
+tl.to("#office-work-broll", {
+  x: -90,
+  y: 92,
+  scale: 0.292,
+  borderRadius: 96,
+  boxShadow: "0 24px 60px rgba(0,0,0,.42)",
+  duration: 0.86,
+  ease: fast,
+}, 18.42);
+
+// 8.1-14.9s: real evidence exists, but remains scattered around the speaker.
+tl.set(".evidence, .scatter-label", { autoAlpha: 0 }, 0);
+reveal(".evidence-voice", 8.25, { x: -150, y: -45, rotateZ: -10 }, {
+  x: 0,
+  y: 0,
+  rotateZ: -4,
+  duration: 0.55,
+});
+reveal(".evidence-file", 9.1, { x: 150, y: -55, rotateZ: 10 }, {
+  x: 0,
+  y: 0,
+  rotateZ: 3,
+  duration: 0.55,
+});
+reveal(".evidence-chat", 10.05, { x: 145, y: 90, rotateZ: 5 }, {
+  x: 0,
+  y: 0,
+  rotateZ: -3,
+  duration: 0.55,
+});
+reveal(".scatter-label", 11.16, { x: -78, y: 22 }, { x: 0, y: 0, duration: 0.52 });
+tl.to(".evidence-voice", { y: -9, duration: 3.2, ease: "sine.inOut" }, 10.1);
+tl.to(".evidence-file", { y: 8, duration: 3.4, ease: "sine.inOut" }, 10.3);
+tl.to(".evidence-voice, .evidence-file", {
+  autoAlpha: 0.16,
+  scale: 0.9,
+  duration: 0.24,
+  ease: "power2.out",
+}, 12.72);
+tl.set(".evidence-chat", {
+  x: -1700,
+  y: -270,
+  rotateZ: 0,
+  scale: 1,
+}, 12.72);
+tl.to(".evidence-chat", {
+  x: -1310,
+  duration: 0.42,
+  ease: fast,
+}, 12.72);
+tl.to(".scatter-label", { autoAlpha: 0, duration: 0.2 }, 12.72);
+
+// 14.9-24.9s: handing off work still creates repeated explanation.
+tl.set(".handoff, .repeat-ticket, .repeat-result", { autoAlpha: 0 }, 0);
+reveal(".handoff", 15.08, { x: -80 }, { x: 0, duration: 0.46 });
+reveal(".ticket-one", 16.0, { x: 135, rotateY: -10 }, { x: 0, rotateY: 0, duration: 0.42 });
+reveal(".ticket-two", 17.0, { x: 135, rotateY: -10 }, { x: 0, rotateY: 0, duration: 0.42 });
+reveal(".ticket-three", 18.1, { x: 135, rotateY: -10 }, { x: 0, rotateY: 0, duration: 0.42 });
+tl.to(".repeat-ticket", { x: -16, duration: 0.18, stagger: 0.05, ease: settle }, 20.55);
+reveal(".repeat-result", 21.05, { y: 62, scale: 0.92 }, { y: 0, scale: 1, duration: 0.54 });
+
+// The recurring black contour establishes chapter changes without replaying A-roll.
+tl.fromTo("#transition-diagnosis", { autoAlpha: 0 }, { autoAlpha: 1, duration: 0.12 }, 24.28);
+tl.fromTo("#transition-diagnosis img", { scale: 1.02, x: 0, y: 0 }, {
+  scale: 1.09,
+  x: -34,
+  y: 18,
+  duration: 1.42,
+  ease: "sine.inOut",
+}, 24.28);
+tl.fromTo("#transition-diagnosis > div", { autoAlpha: 0, y: 50 }, {
+  autoAlpha: 1,
+  y: 0,
+  duration: 0.42,
+  ease: fast,
+}, 24.43);
+
+// 24.9-33.5s: diagnose the actual bottleneck, then state the operating principle.
+tl.set(".wrong-diagnosis, .right-diagnosis, .rule-rail, .rule-copy", { autoAlpha: 0 }, 0);
+reveal(".wrong-diagnosis", 25.0, { x: -80 }, { x: 0, duration: 0.4 });
+tl.fromTo(".wrong-diagnosis i", { scaleX: 0 }, { scaleX: 1, duration: 0.38, ease: "power3.out" }, 25.72);
+hide(".wrong-diagnosis", 26.08, { x: -30 });
+reveal(".right-diagnosis", 26.12, { y: 65, scale: 0.9 }, { y: 0, scale: 1, duration: 0.5 });
+reveal(".rule-rail", 28.2, { x: 125, rotateY: -9 }, { x: 0, rotateY: 0, duration: 0.52 });
+tl.fromTo(".rule-count", { scale: 0.65 }, {
+  scale: 1,
+  duration: 0.32,
+  stagger: 0.18,
+  ease: "back.out(1.45)",
+}, 28.55);
+reveal(".rule-copy", 29.48, { y: 55 }, { y: 0, duration: 0.45 });
+
+// The principle is backed by the real Offer Doc, not a simulated document.
+tl.fromTo("#offer-cover-broll", { autoAlpha: 0 }, { autoAlpha: 1, duration: 0.16 }, 29.22);
+tl.fromTo("#offer-cover-broll .document-copy", { autoAlpha: 0, x: -90 }, {
+  autoAlpha: 1,
+  x: 0,
+  duration: 0.52,
+  ease: fast,
+}, 29.4);
+tl.fromTo("#offer-cover-broll img", { autoAlpha: 0, x: 90, rotateZ: 5, scale: 0.93 }, {
+  autoAlpha: 1,
+  x: 0,
+  rotateZ: 2.5,
+  scale: 1,
+  duration: 0.62,
+  ease: fast,
+}, 29.38);
+tl.to("#offer-cover-broll img", { scale: 1.035, duration: 3.05, ease: "sine.inOut", overwrite: "auto" }, 30.02);
+
+// Pixel resolution marks the semantic change from fragments to a living memory.
+tl.fromTo("#transition-memory", { autoAlpha: 0 }, { autoAlpha: 1, duration: 0.1 }, 33.05);
+tl.fromTo("#transition-memory .pixel-field i", { autoAlpha: 0, scale: 0.15 }, {
+  autoAlpha: 0.92,
+  scale: 1,
+  duration: 0.24,
+  stagger: { each: 0.002, from: "random" },
+  ease: "power3.out",
+}, 33.05);
+tl.fromTo("#transition-memory > div:last-child", { autoAlpha: 0, scale: 0.9 }, {
+  autoAlpha: 1,
+  scale: 1,
+  duration: 0.38,
+  ease: fast,
+}, 33.28);
+tl.to("#transition-memory .pixel-field", { autoAlpha: 0.18, duration: 0.32 }, 33.72);
+
+tl.fromTo("#action-loop-broll img", { scale: 1.02, rotateY: -2.5 }, {
+  scale: 1.08,
+  rotateY: 0,
+  duration: 3.26,
+  ease: "power2.out",
+}, 34.36);
+reveal("#action-loop-broll .source-chip", 34.52, { x: -60 }, { x: 0, duration: 0.4 });
+
+// 33.5-43.5s: reject random generation and assemble a continuously updated memory.
+tl.set(".memory-denial, .memory-panel, .memory-title, .memory-spine, .memory-source, .memory-index", { autoAlpha: 0 }, 0);
+reveal(".memory-denial", 33.68, { x: -75 }, { x: 0, duration: 0.4 });
+hide(".memory-denial", 36.5, { x: -40 });
+reveal(".memory-panel", 37.18, { x: 165, rotateY: -10 }, { x: 0, rotateY: 0, duration: 0.58 });
+reveal(".memory-title", 37.46, { y: 40 }, { y: 0, duration: 0.42 });
+reveal(".memory-spine", 37.78, { scaleY: 0, transformOrigin: "50% 0%" }, {
+  scaleY: 1,
+  duration: 0.58,
+});
+reveal(".source-voice", 38.05, { x: 100 }, { x: 0, duration: 0.44 });
+reveal(".source-product", 38.78, { x: 100 }, { x: 0, duration: 0.44 });
+reveal(".source-client", 39.5, { x: 100 }, { x: 0, duration: 0.44 });
+reveal(".memory-index", 40.4, { y: 24 }, { y: 0, duration: 0.36 });
+
+// 43.5-51.4s: one idea retrieves context and becomes a document, then an edit.
+tl.set(".idea-chip, .retrieve-panel, .retrieve-focus, .retrieve-item, .output-doc, .output-arrow, .output-edit", { autoAlpha: 0 }, 0);
+reveal(".idea-chip", 43.7, { x: -90 }, { x: 0, duration: 0.42 });
+reveal(".retrieve-panel", 44.25, { x: -120, rotateY: 8 }, { x: 0, rotateY: 0, duration: 0.52 });
+reveal(".retrieve-focus", 44.48, { y: 20 }, { y: 0, duration: 0.3 });
+gsap.utils.toArray(".retrieve-item").forEach((node, index) => {
+  reveal(node, 44.8 + index * 0.5, { x: -45 }, { x: 0, duration: 0.36 });
+});
+reveal(".output-doc", 46.65, { y: 95, rotateZ: -10, scale: 0.82 }, {
+  y: 0,
+  rotateZ: -3,
+  scale: 1,
+  duration: 0.5,
+});
+reveal(".output-arrow", 47.3, { x: -25 }, { x: 0, duration: 0.3 });
+reveal(".output-edit", 47.68, { y: 95, rotateZ: 11, scale: 0.82 }, {
+  y: 0,
+  rotateZ: 3,
+  scale: 1,
+  duration: 0.5,
+});
+
+// The real editing timeline enters only when the narration reaches "进入剪辑".
+tl.set("#editing-timeline-broll", {
+  x: 0,
+  y: 0,
+  borderRadius: 0,
+  scale: 1,
+}, 49.80);
+tl.fromTo("#editing-timeline-broll", { scale: 1.045 }, {
+  scale: 1,
+  duration: 1.58,
+  ease: "power2.out",
+}, 49.80);
+tl.fromTo("#editing-broll-label", { autoAlpha: 0, x: 70 }, {
+  autoAlpha: 1,
+  x: 0,
+  duration: 0.3,
+  ease: fast,
+}, 49.88);
+
+// 51.4-54.9s: keep human responsibility explicit.
+tl.set(".decision, .decision-note", { autoAlpha: 0 }, 0);
+reveal(".decision-left", 51.55, { x: -125, rotateY: 10 }, { x: 0, rotateY: 0, duration: 0.48 });
+reveal(".decision-right", 52.08, { x: 125, rotateY: -10 }, { x: 0, rotateY: 0, duration: 0.48 });
+reveal(".decision-note", 52.62, { y: 40 }, { y: 0, duration: 0.4 });
+
+// 54.9-61.5s: expressions accumulate into reusable assets.
+tl.set(".asset-title, .asset-stack article", { autoAlpha: 0 }, 0);
+reveal(".asset-title", 55.1, { x: -82 }, { x: 0, duration: 0.46 });
+gsap.utils.toArray(".asset-stack article").forEach((node, index) => {
+  reveal(node, 55.7 + index * 0.62, { x: 160, y: 80, rotateY: -20, scale: 0.8 }, {
+    x: 0,
+    y: 0,
+    rotateY: index === 1 ? -5 : -7,
+    scale: 1,
+    duration: 0.58,
+  });
+});
+
+tl.fromTo("#offer-loop-broll .document-copy", { autoAlpha: 0, x: 95 }, {
+  autoAlpha: 1,
+  x: 0,
+  duration: 0.5,
+  ease: fast,
+}, 55.3);
+tl.fromTo("#offer-loop-broll img", { autoAlpha: 0, x: -85, rotateZ: -5, scale: 0.94 }, {
+  autoAlpha: 1,
+  x: 0,
+  rotateZ: -2.5,
+  scale: 1,
+  duration: 0.62,
+  ease: fast,
+}, 55.28);
+
+// 61.5-64.1s: the third repetition is visibly cancelled.
+tl.set(".count, .third-copy", { autoAlpha: 0 }, 0);
+tl.fromTo(".count", { autoAlpha: 0, y: 80, scale: 0.72 }, {
+  autoAlpha: 1,
+  y: 0,
+  scale: 1,
+  duration: 0.34,
+  stagger: 0.16,
+  ease: fast,
+}, 61.6);
+tl.fromTo(".count-three i", { scaleX: 0 }, { scaleX: 1, duration: 0.3, ease: "power3.out" }, 62.18);
+reveal(".third-copy", 62.22, { y: 45 }, { y: 0, duration: 0.42 });
+
+tl.fromTo("#transition-brand", { autoAlpha: 0 }, { autoAlpha: 1, duration: 0.12 }, 63.72);
+tl.fromTo("#transition-brand img", { scale: 1.04, x: 20, y: -12 }, {
+  scale: 1.1,
+  x: -28,
+  y: 16,
+  duration: 1.46,
+  ease: "sine.inOut",
+}, 63.72);
+tl.fromTo("#transition-brand > div", { autoAlpha: 0, y: 42 }, {
+  autoAlpha: 1,
+  y: 0,
+  duration: 0.4,
+  ease: fast,
+}, 63.88);
+
+// 64.1-69.9s: brand promise stays operational, not abstract.
+tl.set(".brand-lock, .brand-step", { autoAlpha: 0 }, 0);
+reveal(".brand-lock", 64.28, { x: -90 }, { x: 0, duration: 0.48 });
+gsap.utils.toArray(".brand-step").forEach((node, index) => {
+  reveal(node, 64.62 + index * 0.7, { x: 130, rotateY: -9 }, {
+    x: 0,
+    rotateY: 0,
+    duration: 0.46,
+  });
+});
+
+// 69.9-80s: three real prior-video frames occupy the whole canvas before restoring to the speaker.
+tl.set(".history-montage figure, .history-montage > div, .cta-message, .diagnosis, .cta-brand", { autoAlpha: 0 }, 0);
+gsap.utils.toArray(".history-montage figure").forEach((node, index) => {
+  reveal(node, 70.02 + index * 0.18, { y: 130, rotateY: index === 0 ? 24 : -20, scale: 0.76 }, {
+    y: 0,
+    scale: 1,
+    duration: 0.52,
+  });
+});
+reveal(".history-montage > div", 70.72, { y: 55 }, { y: 0, duration: 0.46 });
+tl.to("#history-montage", { scale: 0.92, autoAlpha: 0, duration: 0.58, ease: fast }, 73.22);
+reveal(".cta-message", 73.28, { x: 150, rotateY: -8 }, { x: 0, rotateY: 0, duration: 0.52 });
+reveal(".diagnosis", 74.18, { y: 45 }, { y: 0, duration: 0.42 });
+reveal(".cta-brand", 76.0, { y: 28 }, { y: 0, duration: 0.4 });
+
+// Body captions gently settle in; the first three seconds intentionally have none.
+document.querySelectorAll(".body-caption").forEach((caption) => {
+  const start = Number(caption.dataset.start || 0);
+  tl.fromTo(caption, { y: 18 }, { y: 0, duration: 0.18, ease: settle }, start);
+});
+
+window.__timelines["0813-yujun-boss-content-memory"] = tl;
+</script>
+  </body>
+</html>

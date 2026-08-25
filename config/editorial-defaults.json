@@ -1,0 +1,123 @@
+{
+  "schemaVersion": 4,
+  "editingSystem": {
+    "version": 3,
+    "executionModel": "director-plus-parallel-semantic-sequences"
+  },
+  "mode": "general-editorial-talking-head",
+  "delivery": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 60,
+    "orientation": "landscape"
+  },
+  "sourceRetime": {
+    "rate": 1.1,
+    "preservePitch": true,
+    "applyExactlyOnce": true
+  },
+  "roughCut": {
+    "sourceOrderDefault": "infer-from-audio-and-manuscript",
+    "allowEpisodeOverride": true,
+    "parallelizePerSource": true,
+    "trimOnly": [
+      "pre-speech-head-down",
+      "pre-speech-silence",
+      "post-speech-silence"
+    ],
+    "preserveMiddleContent": true,
+    "preservePurposefulTailAction": true,
+    "reviewHeadAndTail": true
+  },
+  "transcription": {
+    "language": "zh-CN",
+    "preferredEngine": "doubao-chinese-asr",
+    "manuscriptUse": "understanding-and-correction"
+  },
+  "captions": {
+    "scope": "body-dialogue-only",
+    "fontStack": [
+      "-apple-system",
+      "PingFang SC",
+      "Helvetica Neue",
+      "Arial"
+    ],
+    "fontSource": "system",
+    "letterSpacing": 0,
+    "layout1080p": {
+      "horizontalInsetPx": 150,
+      "bottomPx": 42,
+      "lineGapPx": 8,
+      "textAlign": "center"
+    },
+    "chinese": {
+      "position": "top",
+      "color": "#FFFFFF",
+      "sizePx": 54,
+      "fontWeight": 850,
+      "lineHeight": 1.08
+    },
+    "english": {
+      "position": "bottom",
+      "color": "#FF7A00",
+      "sizePx": 32,
+      "fontWeight": 750,
+      "lineHeight": 1.05
+    },
+    "strokeEnabled": false,
+    "background": "none",
+    "shadow": {
+      "color": "#000000",
+      "opacity": 0.9,
+      "blurPercentInCapCut": 15,
+      "distanceInCapCut": 5,
+      "angleDeg": -45,
+      "note": "Do not interpret CapCut blur percent as CSS pixels."
+    }
+  },
+  "rhythm": {
+    "maxUnchangedSecondsExclusive": 10,
+    "changeMustServeMeaning": true,
+    "firstFiveSecondsRequireDedicatedDesign": true
+  },
+  "preview": {
+    "width": 1280,
+    "height": 720,
+    "fps": 60,
+    "videoCodec": "libx264",
+    "crf": 18,
+    "preset": "veryfast",
+    "audioCodec": "aac",
+    "audioBitrate": "192k",
+    "targetIntegratedLoudnessLufs": -8.72,
+    "truePeakCeilingDbtp": -1
+  },
+  "master": {
+    "container": "mp4",
+    "videoCodec": "libx264",
+    "crf": 14,
+    "preset": "slow",
+    "pixelFormat": "yuv420p",
+    "colorSpace": "bt709",
+    "audioCodec": "aac",
+    "audioBitrate": "320k",
+    "audioSampleRate": 48000,
+    "targetIntegratedLoudnessLufs": -8.72,
+    "truePeakCeilingDbtp": -1
+  },
+  "covers": {
+    "requiredByDefault": true,
+    "ratios": [
+      {
+        "name": "4x3",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "name": "3x4",
+        "width": 1080,
+        "height": 1440
+      }
+    ]
+  }
+}

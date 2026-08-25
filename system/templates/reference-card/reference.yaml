@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "reference.template.v1",
+  "title": "TODO",
+  "category": "TODO",
+  "status": "draft",
+  "source": {
+    "assetId": "asset.template",
+    "relativePath": null,
+    "timeRange": {
+      "start": "00:00:00.000",
+      "end": "00:00:01.000"
+    }
+  },
+  "semanticProblem": "TODO",
+  "visibleMotion": [
+    "TODO"
+  ],
+  "useWhen": [
+    "TODO"
+  ],
+  "avoidWhen": [
+    "TODO"
+  ],
+  "rights": {
+    "status": "unknown",
+    "license": "TODO"
+  },
+  "productionEligibility": "blocked",
+  "review": {
+    "status": "draft",
+    "basis": "TODO"
+  }
+}

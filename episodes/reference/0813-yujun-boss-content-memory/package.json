@@ -1,0 +1,15 @@
+{
+  "name": "yujun-boss-content-memory",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "build": "node scripts/build_index.mjs",
+    "check": "npm run build && hyperframes check",
+    "preview": "npm run build && hyperframes preview",
+    "render:preview": "npm run build && hyperframes render --quality draft --output deliverables/与君AI-老板内容记忆-低清预览.mp4",
+    "render:master": "npm run build && hyperframes render --quality high --crf 14 --output deliverables/与君AI-老板内容记忆-正式母版-1080p60.mp4"
+  },
+  "devDependencies": {
+    "hyperframes": "0.7.86"
+  }
+}

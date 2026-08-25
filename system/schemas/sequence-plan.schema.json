@@ -1,0 +1,76 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "sequence-plan.schema.json",
+  "title": "Editing System V3 Sequence Plan",
+  "type": "object",
+  "required": ["schemaVersion", "episodeId", "sourceClock", "sequences"],
+  "properties": {
+    "schemaVersion": {"const": 1},
+    "episodeId": {"type": "string", "minLength": 1},
+    "sourceClock": {"const": "retimed-aroll"},
+    "sequences": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "start", "end", "transcript", "audienceTask", "primaryVisualRole", "design"],
+        "properties": {
+          "id": {"type": "string", "pattern": "^[A-Za-z][A-Za-z0-9_-]*$"},
+          "start": {"type": "number", "minimum": 0},
+          "end": {"type": "number", "exclusiveMinimum": 0},
+          "transcript": {"type": "string"},
+          "audienceTask": {"type": "string", "minLength": 1},
+          "emotionalBeat": {"type": "string"},
+          "primaryVisualRole": {
+            "enum": ["presenter", "real-evidence", "generated-explanation", "programmatic-motion", "clean-hold", "mixed"]
+          },
+          "sourceMedia": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["path", "relationship"],
+              "properties": {
+                "path": {"type": "string", "minLength": 1},
+                "sourceId": {"type": "string"},
+                "sourceStart": {"type": "number", "minimum": 0},
+                "sourceEnd": {"type": "number", "minimum": 0},
+                "relationship": {
+                  "enum": ["subject", "direct-evidence", "explanation", "reaction", "atmosphere", "transition"]
+                }
+              },
+              "additionalProperties": true
+            }
+          },
+          "design": {
+            "type": "object",
+            "required": ["entryState", "visibleAction", "landedComposition", "exitState"],
+            "properties": {
+              "entryState": {"type": "string", "minLength": 1},
+              "visibleAction": {"type": "string", "minLength": 1},
+              "landedComposition": {"type": "string", "minLength": 1},
+              "exitState": {"type": "string", "minLength": 1},
+              "displayType": {"type": "string"},
+              "soundCue": {"type": "string"}
+            },
+            "additionalProperties": true
+          },
+          "capabilities": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["techniqueId"],
+              "properties": {
+                "techniqueId": {"type": "string", "minLength": 1},
+                "assetId": {"type": "string"},
+                "reference": {"type": "string"}
+              },
+              "additionalProperties": true
+            }
+          },
+          "notes": {"type": "array", "items": {"type": "string"}}
+        },
+        "additionalProperties": true
+      }
+    }
+  },
+  "additionalProperties": true
+}

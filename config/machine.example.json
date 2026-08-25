@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "assetStoreRootEnv": "EDITING_ASSET_STORE_ROOT",
+  "workspaceRootEnv": "EDITING_WORKSPACE_ROOT",
+  "secrets": {
+    "doubaoAppKeyEnv": "DOUBAO_APP_KEY",
+    "doubaoAccessKeyEnv": "DOUBAO_ACCESS_KEY"
+  }
+}

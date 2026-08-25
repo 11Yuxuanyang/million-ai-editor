@@ -1,0 +1,17 @@
+# Historical evidence is retained but excluded from default production retrieval.
+_archive/
+docs/architecture/drafts/control-plane-v3/
+docs/architecture/reviews/INDEPENDENT-SOL-GATE-HARDENING-REVIEW*.md
+docs/architecture/reviews/preflight-*.md
+docs/architecture/reviews/ROUND-03-CONTROL-PLANE-AUDIT-SOL.md
+docs/architecture/reviews/ROUND-03-MOTION-STORYBOARD-AUDIT-SOL.md
+docs/architecture/reviews/ROUND-03-ASSET-ARCHIVE-AUDIT-SOL.md
+
+# Generated inventories are queried through their summaries or exact paths.
+library/catalog/*.ndjson
+library/works/index.json
+
+# Rejected and superseded episode implementations are provenance-only.
+**/iterations/
+**/rejected/
+**/superseded/

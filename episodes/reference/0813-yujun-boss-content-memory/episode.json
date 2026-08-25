@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "0813-yujun-boss-content-memory",
+  "title": "老板 IP 最贵的，是老板本人",
+  "profile": "yujun-ai",
+  "inputs": {
+    "sourceDir": "source",
+    "manuscript": "SCRIPT.md",
+    "sourceOrderMode": "aligned-by-audio-and-manuscript"
+  },
+  "paths": {
+    "inventory": "work/media-inventory.json",
+    "transcripts": "transcripts",
+    "cutPlan": "work/cut-plan.json",
+    "captions": "work/captions.json",
+    "aRoll": "assets/media/a-roll-1080p60.mp4",
+    "preview": "deliverables/与君AI-老板内容记忆-低清预览.mp4",
+    "master": "deliverables/与君AI-老板内容记忆-正式母版-1080p60.mp4"
+  },
+  "taste": {
+    "current": "../../library/taste/current.json",
+    "episodeDirection": "DESIGN.md"
+  },
+  "deliveryOverrides": {},
+  "notes": [
+    "Reference implementation only; source media and deliverables are intentionally absent from Git."
+  ]
+}

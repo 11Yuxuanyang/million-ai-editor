@@ -1,0 +1,19 @@
+{
+  "platform": "douyin",
+  "timezone": "Asia/Shanghai",
+  "daily_time": "08:00",
+  "final_publish_requires_human_confirm": true,
+  "max_tags": 5,
+  "items": [
+    {
+      "id": "2026-08-25-example",
+      "status": "pending",
+      "scheduled_date": "2026-08-25",
+      "project": "episodes/0825-example",
+      "video": "episodes/0825-example/deliverables/master.mp4",
+      "cover": "episodes/0825-example/deliverables/cover-3x4.png",
+      "title": "示例标题",
+      "tags": ["AI剪辑", "内容创作"]
+    }
+  ]
+}

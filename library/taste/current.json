@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 2,
+  "status": "active",
+  "updatedAt": "2026-08-23T00:00:00+08:00",
+  "sources": {
+    "mother": "docs/EDITORIAL-MOTHER.md",
+    "preferences": "skills/hyperframe-video-editor/references/aesthetic-preferences.md",
+    "color": "skills/hyperframe-video-editor/references/color-direction.md",
+    "shotLanguage": "references/SHOT-LANGUAGE.md",
+    "capabilityIndex": "skills/hyperframe-video-editor/references/capability-index.md",
+    "techniques": "library/techniques/registry.json",
+    "assets": "references/asset-library/registry.json",
+    "references": "library/references",
+    "creativeOptions": "skills/hyperframe-video-editor/references/creative-options-catalog.md",
+    "openings": "skills/hyperframe-video-editor/references/shot-design-opening.md",
+    "sound": "skills/hyperframe-video-editor/references/sound-direction.md"
+  },
+  "dimensions": {
+    "shots": [
+      "skills/hyperframe-video-editor/references/capability-index.md",
+      "references/SHOT-LANGUAGE.md",
+      "library/techniques/registry.json",
+      "references/asset-library/registry.json",
+      "library/references"
+    ],
+    "preferences": "skills/hyperframe-video-editor/references/aesthetic-preferences.md",
+    "color": "skills/hyperframe-video-editor/references/color-direction.md",
+    "rhythm": [
+      "config/editorial-defaults.json#/rhythm",
+      "skills/hyperframe-video-editor/references/shot-design-rhythm.md"
+    ],
+    "openings": "skills/hyperframe-video-editor/references/shot-design-opening.md",
+    "sound": "skills/hyperframe-video-editor/references/sound-direction.md"
+  },
+  "loadingPolicy": [
+    "Read mother and preferences after understanding the episode.",
+    "Read color before writing the full storyboard.",
+    "Read sound before locking camera, transition, reveal, or UI sound cues.",
+    "Read the compact capability index once before the first full storyboard so established evidence, generated, transition, and visual-system options enter the creative judgment.",
+    "After choosing a visual family, resolve only its techniqueRefs, assetRefs, and approved reference card; do not load the full registries into the episode context.",
+    "Current user direction and episode DESIGN.md override shared taste."
+  ]
+}

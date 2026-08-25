@@ -1,0 +1,74 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "creative-brief.schema.json",
+  "title": "Editing System V3 Creative Brief",
+  "type": "object",
+  "required": [
+    "schemaVersion",
+    "episodeId",
+    "audiencePromise",
+    "visualThesis",
+    "opening",
+    "visualMainline",
+    "palette",
+    "typography",
+    "sound"
+  ],
+  "properties": {
+    "schemaVersion": {"const": 1},
+    "episodeId": {"type": "string", "minLength": 1},
+    "audiencePromise": {"type": "string", "minLength": 1},
+    "visualThesis": {"type": "string", "minLength": 1},
+    "opening": {
+      "type": "object",
+      "required": ["firstFrame", "progression", "handoff"],
+      "properties": {
+        "firstFrame": {"type": "string", "minLength": 1},
+        "progression": {"type": "string", "minLength": 1},
+        "handoff": {"type": "string", "minLength": 1}
+      },
+      "additionalProperties": true
+    },
+    "visualMainline": {
+      "type": "object",
+      "required": ["motif", "evolution"],
+      "properties": {
+        "motif": {"type": "string", "minLength": 1},
+        "evolution": {"type": "string", "minLength": 1}
+      },
+      "additionalProperties": true
+    },
+    "palette": {
+      "type": "object",
+      "required": ["ground", "content", "structure", "semanticAccent"],
+      "properties": {
+        "ground": {"type": "string", "minLength": 1},
+        "content": {"type": "string", "minLength": 1},
+        "structure": {"type": "string", "minLength": 1},
+        "semanticAccent": {"type": "string", "minLength": 1}
+      },
+      "additionalProperties": true
+    },
+    "typography": {
+      "type": "object",
+      "required": ["displayHierarchy", "bodyCaptions"],
+      "properties": {
+        "displayHierarchy": {"type": "string", "minLength": 1},
+        "bodyCaptions": {"type": "string", "minLength": 1}
+      },
+      "additionalProperties": true
+    },
+    "sound": {
+      "type": "object",
+      "required": ["dialoguePriority", "direction"],
+      "properties": {
+        "dialoguePriority": {"type": "boolean"},
+        "direction": {"type": "string", "minLength": 1}
+      },
+      "additionalProperties": true
+    },
+    "sharedAssets": {"type": "array"},
+    "episodeConstraints": {"type": "array"}
+  },
+  "additionalProperties": true
+}

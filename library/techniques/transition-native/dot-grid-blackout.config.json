@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 2,
+  "id": "technique.dynamic-line-dot-blackout.v2",
+  "durationSeconds": 1.2,
+  "palette": {
+    "background": "#000000",
+    "point": "#747983",
+    "copy": "#D9DDE5"
+  },
+  "grid": {
+    "columns": 24,
+    "rows": 14,
+    "jitterRatio": 0.08,
+    "skipChance": 0.28
+  },
+  "connections": {
+    "horizontalChance": 0.18,
+    "verticalChance": 0.08
+  },
+  "seed": 703,
+  "motion": {
+    "blackoutSeconds": 0.28,
+    "lineRevealSeconds": 0.48,
+    "pointRevealSeconds": 0.45,
+    "copyRevealSeconds": 0.32,
+    "driftSeconds": 1.2
+  },
+  "safeRange": {
+    "columns": [16, 32],
+    "rows": [9, 18],
+    "durationSeconds": [1.0, 1.6]
+  }
+}

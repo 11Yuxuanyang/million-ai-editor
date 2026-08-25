@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "million-ai-challenge",
+  "label": "AI，我俩和一百万",
+  "brand": "百万 AI 大挑战",
+  "requiredOverlays": [
+    {
+      "id": "million-progress",
+      "position": "top-right-unless-occluded",
+      "visual": "single flipping copper coin, editable amount, thin progress line",
+      "background": "transparent",
+      "episodeInput": "currentAmount",
+      "targetAmount": 1000000
+    }
+  ],
+  "requiredTags": ["#百万AI大挑战"]
+}

@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "episodeId": "replace-me",
+  "audiencePromise": "",
+  "visualThesis": "",
+  "opening": {
+    "firstFrame": "",
+    "progression": "",
+    "handoff": ""
+  },
+  "visualMainline": {
+    "motif": "",
+    "evolution": ""
+  },
+  "palette": {
+    "ground": "",
+    "content": "",
+    "structure": "",
+    "semanticAccent": ""
+  },
+  "typography": {
+    "displayHierarchy": "",
+    "bodyCaptions": "locked-to-editorial-defaults"
+  },
+  "sound": {
+    "dialoguePriority": true,
+    "direction": ""
+  },
+  "sharedAssets": [],
+  "episodeConstraints": []
+}

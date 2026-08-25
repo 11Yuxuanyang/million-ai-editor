@@ -1,0 +1,41 @@
+{
+  "duration": 20.0,
+  "sample_rate": 48000,
+  "sources": {
+    "opening-impact": {
+      "path": "/absolute/path/to/licensed-long-tail-impact.wav",
+      "trim": [0.0, 2.2],
+      "volume_db": -4.0,
+      "license": "<license name>",
+      "provenance": "<source URL or asset registry ID>",
+      "sha256": "<replace with 64-character source hash>"
+    },
+    "keyboard": {
+      "path": "/absolute/path/to/licensed-key-click.wav",
+      "trim": [0.08, 0.18],
+      "volume_db": -10.0,
+      "license": "<license name>",
+      "provenance": "<source URL or asset registry ID>",
+      "sha256": "<replace with 64-character source hash>"
+    }
+  },
+  "cues": [
+    {
+      "id": "opening",
+      "source": "opening-impact",
+      "at": 0.0,
+      "action_ref": "storyboard event E1 begins",
+      "fade_out": 0.35
+    },
+    {
+      "id": "visible-input-action",
+      "source": "keyboard",
+      "at": 13.18,
+      "action_ref": "storyboard event E4 visible input action"
+    }
+  ],
+  "mix": {
+    "output_gain_db": -2.0,
+    "limiter": 0.88
+  }
+}

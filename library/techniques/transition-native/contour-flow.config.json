@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "technique.contour-flow-bridge.v1",
+  "durationSeconds": 1.05,
+  "palette": {
+    "background": "#000000",
+    "line": "#343840",
+    "accent": "#356DFF"
+  },
+  "solution": {
+    "library": "d3-contour",
+    "version": "4.0.2",
+    "bundle": "d3@7.9.0",
+    "algorithm": "marching-squares",
+    "license": "ISC",
+    "docs": "https://d3js.org/d3-contour"
+  },
+  "field": {
+    "columns": 48,
+    "rows": 27,
+    "seed": 1707,
+    "hillCount": 6,
+    "thresholds": [0.22, 0.31, 0.4, 0.49, 0.58, 0.67, 0.76]
+  },
+  "motion": {
+    "drawSeconds": 0.54,
+    "lineStaggerSeconds": 0.035,
+    "copyRevealSeconds": 0.24,
+    "evolveSeconds": 1.2
+  },
+  "safeRange": {
+    "thresholdCount": [5, 9],
+    "durationSeconds": [0.8, 1.4]
+  }
+}

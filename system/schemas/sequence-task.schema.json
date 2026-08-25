@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "sequence-task.schema.json",
+  "title": "Editing System V3 Sequence Task Packet",
+  "type": "object",
+  "required": ["schemaVersion", "systemVersion", "episodeId", "sequenceId", "taskFingerprint", "creativeBrief", "sequence", "neighbors", "sharedContext", "sourceContract", "capabilityContract", "outputContract"],
+  "properties": {
+    "schemaVersion": {"const": 1},
+    "systemVersion": {"const": 3},
+    "episodeId": {"type": "string", "minLength": 1},
+    "sequenceId": {"type": "string", "minLength": 1},
+    "taskFingerprint": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "creativeBrief": {"type": "object"},
+    "sequence": {"type": "object"},
+    "neighbors": {"type": "object"},
+    "sharedContext": {"type": "array"},
+    "sourceContract": {"type": "array"},
+    "capabilityContract": {"type": "array"},
+    "outputContract": {
+      "type": "object",
+      "required": ["exclusiveWriteRoot", "assetUrlPrefix", "clock", "domIdPrefix", "executionIsolation"],
+      "properties": {
+        "exclusiveWriteRoot": {"type": "string", "minLength": 1},
+        "assetUrlPrefix": {"type": "string", "minLength": 1},
+        "clock": {"const": "absolute-retimed-aroll-seconds"},
+        "domIdPrefix": {"type": "string", "minLength": 1},
+        "executionIsolation": {"const": "forked-worktree-or-equivalent"}
+      },
+      "additionalProperties": true
+    }
+  },
+  "additionalProperties": true
+}

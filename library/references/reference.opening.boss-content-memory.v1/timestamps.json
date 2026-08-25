@@ -1,0 +1,26 @@
+{
+  "moments": [
+    {
+      "at": "00:00:00.000",
+      "meaning": "人物极近景建立，保留真实环境"
+    },
+    {
+      "at": "00:00:00.900",
+      "meaning": "错误答案成为第一层可见信息"
+    },
+    {
+      "at": "00:00:02.200",
+      "meaning": "错误答案退后，核心判断从人物后方建立"
+    },
+    {
+      "at": "00:00:03.820",
+      "meaning": "人物与核心判断共同落地"
+    }
+  ],
+  "referenceId": "reference.opening.boss-content-memory.v1",
+  "schemaVersion": 1,
+  "timeRange": {
+    "end": "00:00:03.820",
+    "start": "00:00:00.000"
+  }
+}

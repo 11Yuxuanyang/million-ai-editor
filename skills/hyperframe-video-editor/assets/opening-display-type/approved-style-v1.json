@@ -1,0 +1,62 @@
+{
+  "id": "opening-display-heavy-v1",
+  "status": "user-approved-baseline",
+  "kind": "opening-display-type-not-body-captions",
+  "source_case": "hf-0728-ai-news-opening-sample@v24-r2",
+  "usage": "Use as a starting profile and adapt to each episode; do not treat as a global hard rule.",
+  "reference_canvas": {
+    "width": 1920,
+    "height": 1080
+  },
+  "typography": {
+    "preferred_family": "Source Han Sans SC Heavy",
+    "fallbacks": ["Source Han Sans SC", "Arial Black", "sans-serif"],
+    "native_weight": 900,
+    "synthetic_stroke": false,
+    "letter_spacing_em": -0.052,
+    "line_height": 0.98
+  },
+  "size_baseline_px": {
+    "hero_lines": [112, 102],
+    "secondary_display_range": [116, 136],
+    "policy": "Scale from the reference canvas, then adjust for actual glyph width, line length, subject size and composition."
+  },
+  "fill": {
+    "primary": "#ffffff",
+    "approved_accent_example": "#f4ff45",
+    "accent_policy": "Use the current episode semantic accent; the example yellow is not mandatory."
+  },
+  "shadow": {
+    "primary": [
+      "0 5px 16px rgba(0,0,0,0.78)",
+      "0 0 12px rgba(255,255,255,0.20)"
+    ],
+    "accent_example": [
+      "0 5px 16px rgba(0,0,0,0.74)",
+      "0 0 10px rgba(244,255,69,0.82)",
+      "0 0 26px rgba(244,255,69,0.32)"
+    ],
+    "policy": "Keep glow restrained and preserve solid glyphs; do not turn the type into neon outline text."
+  },
+  "layout": {
+    "preferred_modes": ["center-symmetric", "visually-balanced"],
+    "black_container": false,
+    "intentional_subject_overlap_allowed": true,
+    "absolute_coordinates_reusable": false
+  },
+  "edge_treatment": {
+    "default": "none",
+    "approved_sample_max_opacity": 0.06,
+    "approved_sample_off_by_seconds": 0.82
+  },
+  "caption_policy": {
+    "opening_body_captions": false,
+    "selective_display_type_allowed": true,
+    "display_copy_must_come_from_source": true,
+    "display_every_spoken_sentence": false
+  },
+  "motion_policy": {
+    "included_in_style_profile": false,
+    "instruction": "Choose and parameterize motion per episode from the creative option library."
+  }
+}

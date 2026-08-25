@@ -1,0 +1,4 @@
+interface:
+  display_name: "HyperFrame Editorial Explainer"
+  short_description: "Design adaptive editorial explainer videos"
+  default_prompt: "Use $hyperframe-editorial-explainer to design a content-led editorial storyboard, autonomously cross-read relevant visual perspectives, and invent a new perspective or technique when existing patterns do not fit."

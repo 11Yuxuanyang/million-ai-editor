@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "policy": {
+    "proposalOnly": true,
+    "unknownIsNeverCleanupEligible": true,
+    "cleanupRequiresFullSha256": true,
+    "cleanupRequiresExplicitApproval": true
+  },
+  "rules": [
+    {
+      "id": "dependency-directory",
+      "match": {"directoryNames": ["node_modules"]},
+      "proposedStatus": "rebuildable",
+      "reasonCode": "dependency-directory"
+    },
+    {
+      "id": "python-environment",
+      "match": {"directoryPrefixes": [".venv"]},
+      "proposedStatus": "rebuildable",
+      "reasonCode": "python-environment"
+    },
+    {
+      "id": "render-work-directory",
+      "match": {"directoryPrefixes": ["work-"]},
+      "proposedStatus": "rebuildable",
+      "reasonCode": "render-work-directory"
+    },
+    {
+      "id": "transcode-cache",
+      "match": {"directoryNames": [".transcode-cache"]},
+      "proposedStatus": "rebuildable",
+      "reasonCode": "transcode-cache"
+    },
+    {
+      "id": "waveform-cache",
+      "match": {"directoryNames": [".waveform-cache"]},
+      "proposedStatus": "rebuildable",
+      "reasonCode": "waveform-cache"
+    },
+    {
+      "id": "thumbnail-cache",
+      "match": {"directoryNames": [".thumbnails"]},
+      "proposedStatus": "rebuildable",
+      "reasonCode": "thumbnail-cache"
+    },
+    {
+      "id": "preview-or-render",
+      "match": {"pathSegments": ["preview", "previews", "render", "renders"]},
+      "proposedStatus": "unknown",
+      "reasonCode": "review-output"
+    },
+    {
+      "id": "source-directory",
+      "match": {"pathSegments": ["source"]},
+      "proposedStatus": "unknown",
+      "reasonCode": "source-review-required"
+    },
+    {
+      "id": "reference-study",
+      "match": {"pathSegments": ["reference", "references", "research"]},
+      "proposedStatus": "unknown",
+      "reasonCode": "reference-review-required"
+    },
+    {
+      "id": "canonical-delivery-name",
+      "match": {"filenameContains": ["master", "formal", "final", "正式母版", "母版"]},
+      "proposedStatus": "unknown",
+      "reasonCode": "canonical-candidate-review-required"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "replace-me",
+  "title": "Untitled episode",
+  "profile": "general",
+  "inputs": {
+    "sourceDir": "source",
+    "manuscript": "SCRIPT.md",
+    "sourceOrderMode": "infer-from-audio-and-manuscript"
+  },
+  "paths": {
+    "inventory": "work/media-inventory.json",
+    "transcripts": "transcripts",
+    "cutPlan": "work/cut-plan.json",
+    "captions": "work/captions.json",
+    "aRoll": "assets/media/a-roll-1080p60.mp4",
+    "creativeBrief": "work/creative-brief.json",
+    "sequencePlan": "work/sequence-plan.json",
+    "sequenceRoot": "sequences",
+    "assemblyPlan": "work/assembly-plan.json",
+    "preview": "deliverables/preview.mp4",
+    "master": "deliverables/master.mp4"
+  },
+  "taste": {
+    "current": "library/taste/current.json",
+    "episodeDirection": "DESIGN.md"
+  },
+  "deliveryOverrides": {},
+  "notes": []
+}

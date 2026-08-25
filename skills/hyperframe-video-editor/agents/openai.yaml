@@ -1,0 +1,4 @@
+interface:
+  display_name: "HyperFrame Video Editor"
+  short_description: "内容优先的自动粗剪、字幕、导演设计、HyperFrames 实现与独立封面工作流"
+  default_prompt: "Use $hyperframe-video-editor as the Editing System V3 director: prepare and understand sources, lock the creative brief and full storyboard, dispatch eligible semantic sequences to isolated $hyperframe-sequence-worker agents, assemble and preview the continuous edit, then delegate the cover to a context-isolated GPT-5.6 Sol agent."

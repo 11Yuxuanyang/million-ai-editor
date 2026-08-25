@@ -1,0 +1,22 @@
+/* Preserve source aspect ratio inside a rounded vertical window without blur-fill. */
+.hf-letterboxed-pip {
+  position: absolute;
+  overflow: hidden;
+  border-radius: var(--pip-radius, 20px);
+  background: var(--pip-field, #0b0b0b);
+  isolation: isolate;
+}
+
+.hf-letterboxed-pip > video,
+.hf-letterboxed-pip > img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: var(--pip-source-width, var(--pip-height));
+  height: auto;
+  max-width: none;
+  transform: translate(
+    calc(-50% + var(--pip-pan-x, 0px)),
+    calc(-50% + var(--pip-pan-y, 0px))
+  );
+}

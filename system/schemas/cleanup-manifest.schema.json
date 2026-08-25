@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://million-ai-editor.local/schemas/cleanup-manifest.schema.json",
+  "title": "Approved Recoverable Cleanup Manifest",
+  "type": "object",
+  "required": ["schemaVersion", "status", "createdAt", "items"],
+  "properties": {
+    "schemaVersion": {"const": 1},
+    "status": {"enum": ["proposed", "approved", "applied"]},
+    "createdAt": {"type": "string", "format": "date-time"},
+    "items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["relativePath", "sha256", "sizeBytes", "reasonCode"],
+        "properties": {
+          "relativePath": {"type": "string"},
+          "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+          "sizeBytes": {"type": "integer", "minimum": 0},
+          "reasonCode": {"type": "string", "minLength": 1}
+        },
+        "additionalProperties": true
+      }
+    }
+  },
+  "additionalProperties": true
+}

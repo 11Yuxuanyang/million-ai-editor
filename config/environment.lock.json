@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "platform": "darwin",
+  "tools": {
+    "node": {
+      "minimumMajor": 22
+    },
+    "ffmpeg": {
+      "minimumMajor": 8
+    },
+    "hyperframes": {
+      "projectVersion": "0.8.12"
+    }
+  },
+  "activeSkills": [
+    "hyperframe-video-editor",
+    "hyperframe-sequence-worker",
+    "auto-cover-imagegen",
+    "hyperframe-cinematic-templates",
+    "hyperframe-editorial-explainer"
+  ],
+  "assets": [
+    {
+      "path": "references/asset-library/overlays/film-burn-red-orange-screen-v1.mp4",
+      "sha256": "f6864f074f455b6ee8f54f888aa735787e303b81a1c90a57b7513c6464cad44f"
+    },
+    {
+      "path": "references/asset-library/sfx/camera-shutter-jdaniel1999-376205.wav",
+      "sha256": "8d33a3f8c4ddb3077794984b2af383fe3da81f35912040cde910aeb53a8cb515"
+    }
+  ]
+}

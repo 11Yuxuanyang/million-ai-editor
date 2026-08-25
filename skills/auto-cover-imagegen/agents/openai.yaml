@@ -1,0 +1,4 @@
+interface:
+  display_name: "Short Video Cover"
+  short_description: "End-to-end ImageGen covers in 4:3 and 3:4"
+  default_prompt: "Use $auto-cover-imagegen to turn this episode into independently reviewed 4:3 and 3:4 covers."

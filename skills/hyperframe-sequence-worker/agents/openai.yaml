@@ -1,0 +1,4 @@
+interface:
+  display_name: "HyperFrame Sequence Worker"
+  short_description: "执行 V3 导演任务包中的一个独立语义段落"
+  default_prompt: "Use $hyperframe-sequence-worker to implement the assigned TASK.json inside its exclusive sequence directory and return sequence.json without changing the master timeline."

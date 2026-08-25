@@ -1,0 +1,54 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://million-ai-editor.local/schemas/asset-record.schema.json",
+  "title": "Portable Asset Record",
+  "type": "object",
+  "required": [
+    "schemaVersion",
+    "assetId",
+    "sha256",
+    "sizeBytes",
+    "kind",
+    "role",
+    "status",
+    "rights"
+  ],
+  "properties": {
+    "schemaVersion": {"const": 1},
+    "assetId": {"type": "string", "pattern": "^asset\\.[a-z0-9._-]+$"},
+    "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "sizeBytes": {"type": "integer", "minimum": 0},
+    "kind": {"type": "string", "minLength": 1},
+    "role": {"type": "string", "minLength": 1},
+    "status": {
+      "enum": [
+        "active",
+        "canonical",
+        "reference",
+        "rebuildable",
+        "superseded",
+        "unknown",
+        "missing"
+      ]
+    },
+    "rights": {
+      "type": "object",
+      "required": ["status"],
+      "properties": {
+        "status": {"enum": ["owned", "licensed", "reference-only", "unknown"]},
+        "sourceUrl": {"type": "string"},
+        "notes": {"type": "string"}
+      },
+      "additionalProperties": true
+    },
+    "workspacePath": {"type": "string"},
+    "storeKey": {"type": "string"},
+    "remote": {"type": "object"}
+  },
+  "anyOf": [
+    {"required": ["workspacePath"]},
+    {"required": ["storeKey"]},
+    {"required": ["remote"]}
+  ],
+  "additionalProperties": true
+}

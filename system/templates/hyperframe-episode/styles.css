@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+  background: #000;
+  font-family: var(--font-stack);
+  letter-spacing: 0;
+}
+
+#episode,
+.base-media {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.base-media {
+  object-fit: cover;
+}
+
+.body-caption {
+  position: absolute;
+  left: var(--caption-inset);
+  right: var(--caption-inset);
+  bottom: var(--caption-bottom);
+  z-index: 90;
+  text-align: center;
+  text-shadow: var(--caption-shadow);
+  background: transparent !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+}
+
+.caption-cn,
+.caption-en {
+  background: transparent !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+}
+
+.caption-cn {
+  color: var(--caption-cn-color);
+  font-size: var(--caption-cn-size);
+  font-weight: var(--caption-cn-weight);
+  line-height: var(--caption-cn-line-height);
+}
+
+.caption-en {
+  margin-top: var(--caption-gap);
+  color: var(--caption-en-color);
+  font-size: var(--caption-en-size);
+  font-weight: var(--caption-en-weight);
+  line-height: var(--caption-en-line-height);
+}

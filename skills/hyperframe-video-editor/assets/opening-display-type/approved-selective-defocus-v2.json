@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 1,
+  "id": "opening-display-selective-defocus-v2",
+  "status": "user-approved-opening-variant",
+  "approvedAt": "2026-08-16",
+  "kind": "opening-display-type-with-selective-focus",
+  "sourceCase": "0816-doac-style-owned-footage-sample@v10",
+  "usage": "Use as an optional cold-open language for Chinese talking-head or interview videos. Adapt copy, accents, timing and composition to the episode; do not apply it as continuous body captions.",
+  "referenceCanvas": {
+    "width": 1920,
+    "height": 1080
+  },
+  "typography": {
+    "preferredFamily": "Source Han Sans SC Heavy",
+    "fallbacks": [
+      "Source Han Sans SC",
+      "Arial Black",
+      "sans-serif"
+    ],
+    "nativeWeight": 900,
+    "syntheticStroke": false,
+    "keywordItalicAllowed": true,
+    "heroSizeRangePx": [
+      132,
+      172
+    ],
+    "supportSizeRangePx": [
+      54,
+      108
+    ],
+    "letterSpacingRangeEm": [
+      -0.075,
+      -0.045
+    ],
+    "lineHeightRange": [
+      0.84,
+      1
+    ],
+    "policy": "Keep a strong size hierarchy between hero words, supporting phrases and annotations. Adjust for glyph width, face position and available negative space."
+  },
+  "color": {
+    "base": "solid warm white",
+    "accentPolicy": "Choose one or two semantic accents from the episode color direction. Prefer non-green type accents and do not inherit the source case yellow or green automatically.",
+    "greenTypePolicy": {
+      "default": "avoid",
+      "exceptions": [
+        "brand color accuracy",
+        "evidence identification",
+        "explicit semantic necessity"
+      ]
+    },
+    "outline": false,
+    "container": false
+  },
+  "composition": {
+    "realPersonIsAnchor": true,
+    "splitScreenAllowed": true,
+    "preferredPlacement": "negative space beside or below the person",
+    "softReadabilityGradientAllowed": true,
+    "decorativeHorizontalLines": false,
+    "decorativeVerticalLines": false,
+    "intentionalBodyOverlapAllowed": true,
+    "faceAndMouthOcclusionAllowed": false
+  },
+  "motion": {
+    "ordinaryWords": "appear crisp at the spoken beat",
+    "maximumSelectiveFocusMomentsPer15Seconds": 2,
+    "defocus": {
+      "positionLocked": true,
+      "blurPx": 12,
+      "holdSeconds": 0.3
+    },
+    "focus": {
+      "implementation": "one continuous blur tween",
+      "durationSeconds": 0.62,
+      "ease": "expo.out",
+      "targetBlurPx": 0,
+      "intent": "fast focus acquisition with a soft uninterrupted tail"
+    },
+    "forbidden": [
+      "directional motion blur",
+      "blur wobble",
+      "text displacement",
+      "bounce",
+      "segmented easing with velocity corners",
+      "within-phrase digital push-in"
+    ]
+  },
+  "editing": {
+    "transitions": "hard cuts",
+    "camera": "static crops chosen at cut points",
+    "broll": "use real evidence full-screen when it carries the sentence; prepare seek-safe proxies when source GOPs are sparse"
+  },
+  "useWhen": [
+    "a short spoken hook has one or two words whose meaning benefits from being visually brought into focus",
+    "the person and real setting should remain the visual anchor",
+    "the opening needs impact without looking like a poster or effects reel"
+  ],
+  "avoidWhen": [
+    "every sentence would need the same focus treatment",
+    "the copy is long enough to behave like body captions",
+    "the focus effect would cover a face, mouth or evidence",
+    "the episode tone calls for restrained documentary typography with no visible effect"
+  ]
+}

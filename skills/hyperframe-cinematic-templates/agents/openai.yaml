@@ -1,0 +1,4 @@
+interface:
+  display_name: "HyperFrame Cinematic Templates"
+  short_description: "Reusable cinematic cards, flashes, and display type"
+  default_prompt: "为当前口播选择并实现一个合适的电影化镜头模板。"

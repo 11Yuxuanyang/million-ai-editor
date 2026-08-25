@@ -1,0 +1,54 @@
+/* Editorial shallow-depth-of-field rig.
+   Generated layout CSS must supply --page-image, --page-size,
+   --page-position, --focus-x, --focus-y, --focus-w, and --focus-h. */
+
+.focus-shot {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  background: var(--page-tone, #111);
+}
+
+.focus-page-layer {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  background-image: var(--page-image);
+  background-position: var(--page-position, center);
+  background-repeat: no-repeat;
+  background-size: var(--page-size, cover);
+  transform-origin: var(--focus-x, 50%) var(--focus-y, 50%);
+}
+
+.focus-page-base {
+  transform: scale(1.018);
+  filter: blur(var(--background-blur, 14px));
+}
+
+.focus-page-sharp {
+  -webkit-mask-image: radial-gradient(
+    ellipse var(--focus-w, 42%) var(--focus-h, 25%)
+      at var(--focus-x, 50%) var(--focus-y, 50%),
+    #000 0%,
+    #000 35%,
+    rgba(0, 0, 0, 0.98) 50%,
+    rgba(0, 0, 0, 0.82) 66%,
+    rgba(0, 0, 0, 0.48) 82%,
+    transparent 100%
+  );
+  mask-image: radial-gradient(
+    ellipse var(--focus-w, 42%) var(--focus-h, 25%)
+      at var(--focus-x, 50%) var(--focus-y, 50%),
+    #000 0%,
+    #000 35%,
+    rgba(0, 0, 0, 0.98) 50%,
+    rgba(0, 0, 0, 0.82) 66%,
+    rgba(0, 0, 0, 0.48) 82%,
+    transparent 100%
+  );
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+}
+
+/* Do not add lighting, color, texture, transition, or duplicate-page effects. */
