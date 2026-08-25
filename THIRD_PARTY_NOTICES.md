@@ -4,7 +4,9 @@
 
 ## Project demo media
 
-- File: `episodes/reference/0813-yujun-boss-content-memory/reference/case-demo-20s-720p60.mp4`
+- Files:
+  - `episodes/reference/0813-yujun-boss-content-memory/reference/case-demo-20s-720p60.mp4`
+  - `episodes/reference/0813-yujun-boss-content-memory/reference/case-demo-preview-6s.gif`
 - Copyright: © 2026 Million AI Editor contributors. All rights reserved.
 - Use: included only to demonstrate the editing system's output. It is not licensed under MIT and may not be extracted, redistributed or reused in unrelated productions without permission.
 

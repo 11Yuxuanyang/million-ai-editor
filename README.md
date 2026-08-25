@@ -1,4 +1,4 @@
-# 百万AI剪辑师
+# 百万AI剪辑师 / Million AI Editor
 
 [简体中文](README.md) | [English](README_EN.md)
 
@@ -21,9 +21,9 @@
 
 ### 20 秒可播放案例
 
-[![点击播放 20 秒真实案例](episodes/reference/0813-yujun-boss-content-memory/reference/formal-master-contact.jpg)](episodes/reference/0813-yujun-boss-content-memory/reference/case-demo-20s-720p60.mp4)
+[![点击播放 20 秒真实案例](episodes/reference/0813-yujun-boss-content-memory/reference/case-demo-preview-6s.gif)](episodes/reference/0813-yujun-boss-content-memory/reference/case-demo-20s-720p60.mp4)
 
-点击联系表播放 `720p60` 案例片段。它包含口播剪切、双语字幕、真实素材、画中画与解释动画；完整母版和原始素材不进入公开仓库。
+点击动态预览播放带声音的 `720p60` 案例片段。它包含口播剪切、双语字幕、真实素材、画中画与解释动画；完整母版和原始素材不进入公开仓库。
 
 ### 一条完整口播片的画面密度
 

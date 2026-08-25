@@ -1,4 +1,4 @@
-# Million AI Editor
+# Million AI Editor / 百万AI剪辑师
 
 [简体中文](README.md) | [English](README_EN.md)
 
@@ -21,9 +21,9 @@ The following frames come from an approved production, not a concept demo. To pr
 
 ### Playable 20-second case study
 
-[![Play the 20-second case study](episodes/reference/0813-yujun-boss-content-memory/reference/formal-master-contact.jpg)](episodes/reference/0813-yujun-boss-content-memory/reference/case-demo-20s-720p60.mp4)
+[![Play the 20-second case study](episodes/reference/0813-yujun-boss-content-memory/reference/case-demo-preview-6s.gif)](episodes/reference/0813-yujun-boss-content-memory/reference/case-demo-20s-720p60.mp4)
 
-Click the contact sheet to play the `720p60` excerpt. It includes talking-head cutting, bilingual captions, real footage, picture-in-picture, and explanatory animation. The full master and raw footage are not included in the public repository.
+Click the animated preview to play the `720p60` excerpt with sound. It includes talking-head cutting, bilingual captions, real footage, picture-in-picture, and explanatory animation. The full master and raw footage are not included in the public repository.
 
 ### Visual density across a complete talking-head video
 
