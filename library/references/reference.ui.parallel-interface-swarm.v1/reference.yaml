@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "reference.ui.parallel-interface-swarm.v1",
+  "title": "九个真实剪辑界面在不规则三维空间中并行运行",
+  "category": "ui-motion",
+  "status": "approved",
+  "source": {
+    "assetId": "asset.case.0827.v08.parallel-editing-space-preview",
+    "relativePath": "episodes/0827-million-edit-os-open-source-inserts/work/previews/V08-parallel-editing-space-preview-1080p60.mp4",
+    "timeRange": {
+      "start": "00:00:00.000",
+      "end": "00:00:02.400"
+    }
+  },
+  "semanticProblem": "多个剪辑任务需要在极短时间内被理解为同时运行的生产系统，而不是排成一面静态截图墙。",
+  "visibleMotion": [
+    "九个真实剪辑界面从不同位置、深度、倾角和时点进入同一空间",
+    "镜头先沿斜线穿越并反转观察角度，再缓慢推进到中央主界面",
+    "界面内部的视频、微视差、时间线游标和状态脉冲持续运行",
+    "径向边缘遮罩、暗部包裹和分层虚焦让每个界面融入空间而不是露出硬矩形边"
+  ],
+  "useWhen": [
+    "至少六个真实界面可以共同证明多条工作流正在同时推进",
+    "一个主界面可以保持可辨认，其余界面负责建立规模、速度和空间"
+  ],
+  "avoidWhen": [
+    "观众必须逐字阅读每个界面，或关键事实会被倾角、景深和遮挡破坏",
+    "素材只是同一截图的复制，或排列会退化为规则九宫格"
+  ],
+  "rights": {
+    "status": "reference-only",
+    "license": "项目自制运动与合成；画面包含按单期 SOURCES.md 记录的 Pexels、GPL、CC 与第三方软件界面素材。联系图只用于镜头判断，不把其中像素作为其他项目素材重新分发。"
+  },
+  "productionEligibility": "recipe-only",
+  "review": {
+    "status": "approved",
+    "basis": "2.40 秒、1920×1080、60fps 连续预览通过技术检查与独立审核；用户于 2026-08-29 明确评价画面非常好，并要求整理后推入项目动画库。"
+  }
+}

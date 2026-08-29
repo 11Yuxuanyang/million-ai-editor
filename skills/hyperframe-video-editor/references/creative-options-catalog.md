@@ -43,8 +43,9 @@ AI 先自主判断当前镜头应该生成或组织什么画面，再看本地�
 | **Presenter-Centered 3D Card Orbit（人物中心卡片环绕）** | 2–5 张卡片在人物周围形成有纵深的浅弧。 | 围绕一个人讲多个并列选项、产品或角色。 | 百万计划第三期 Round 04 `37.08s` 附近。 |
 | **Shared-Pivot 3D Page Fan（共轴页面扇开）** | 多张真实页面从人物身后沿同一个底部轴展开。 | 展示资源、案例、文档或作品积累。 | 百万计划第三期 Round 04 `32.12–36.98` 的真实素材纸片。 |
 | **Radial 3D Card Wall（放射式卡片墙）** | 卡片从人物或中心主题向两侧放射，前后错开。 | 数量较多但仍需要围绕一个中心关系时。 | 已进入项目镜头语言；暂无登记的正式案例。 |
+| **Parallel Interface Swarm（并行界面群）** | 六至九个真实界面在不同深度、倾角和时点进入，镜头斜向穿过并落到主界面。 | 并行生产、多代理协作、多条工作流同时推进或系统吞吐量。 | `0827-million-edit-os-open-source-inserts` V08，2.40 秒连续预览获用户明确认可。 |
 
-实现入口：`hyperframe-cinematic-templates`、项目 `references/SHOT-LANGUAGE.md`。
+实现入口：`hyperframe-cinematic-templates`、`references/asset-library/motion-recipes/parallel-interface-swarm.md`、项目 `references/SHOT-LANGUAGE.md`。
 
 ## 镜头运动与焦点 Camera & Focus
 

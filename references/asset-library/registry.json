@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-25",
+  "updatedAt": "2026-08-29",
   "root": ".",
   "assets": [
     {
@@ -92,6 +92,20 @@
       "reuseWhen": "Two to five parallel ideas can occupy a shallow arc around a visible presenter.",
       "avoidWhen": "The presenter is too close or the ideas are sequential rather than parallel.",
       "notes": "Cards need independent x/y/z/yaw/roll and partial overlap; never flatten them into a PPT row."
+    },
+    {
+      "id": "motion.composition.parallel-interface-swarm.v1",
+      "professionalTerm": "Parallel Interface Swarm",
+      "aliases": ["并行界面群", "多剪辑界面三维穿越"],
+      "type": "motion-recipe",
+      "status": "approved",
+      "implementation": "references/asset-library/motion-recipes/gsap-cinematic-shots.js#parallelInterfaceSwarm",
+      "recipe": "references/asset-library/motion-recipes/parallel-interface-swarm.md",
+      "reference": "library/references/reference.ui.parallel-interface-swarm.v1/reference.yaml",
+      "communicates": ["simultaneous work", "production scale", "active system"],
+      "reuseWhen": "Six to nine authentic interfaces can show several workflows operating at once, with one primary surface and the rest carrying depth and scale.",
+      "avoidWhen": "The audience must read every interface, the sources are duplicated or unverified, or the composition would collapse into a regular screenshot grid.",
+      "notes": "Use deterministic asymmetry: independent depth, yaw, roll, entrance timing, drift, edge masks, and one two-leg diagonal camera move. Rebuild geometry for every episode."
     },
     {
       "id": "motion.system.scatter-index-retrieve.v1",

@@ -230,6 +230,31 @@
       }
     },
     {
+      "id": "technique.ui.parallel-interface-swarm",
+      "version": 1,
+      "status": "approved",
+      "semanticProblem": "Several active workflows must feel genuinely simultaneous and large-scale rather than like screenshots arranged on a slide.",
+      "useWhen": [
+        "at least six authentic interfaces or process views are available",
+        "one primary interface can remain recognizable while the others establish scale and depth"
+      ],
+      "avoidWhen": [
+        "the audience must read every interface in detail",
+        "the sources are duplicates, unverifiable, or would form a regular grid"
+      ],
+      "motionGrammar": "one primary interface establishes orientation -> six to nine interfaces enter from unequal positions, depths, angles, and times -> a two-leg diagonal camera move passes through the irregular field while internal media and playheads continue working -> the camera lands on a full, stable system view",
+      "assetRefs": ["motion.composition.parallel-interface-swarm.v1"],
+      "reference": "library/references/reference.ui.parallel-interface-swarm.v1/reference.yaml",
+      "source": "0827-million-edit-os-open-source-inserts",
+      "knownUses": [
+        "0827-million-edit-os-open-source-inserts@v08-parallel-editing-space-preview-1080p60"
+      ],
+      "review": {
+        "status": "approved-by-user",
+        "evidence": "On 2026-08-29 the user described the continuous 2.4-second preview as very good and explicitly requested that the design be distilled into the project animation library."
+      }
+    },
+    {
       "id": "technique.generated.vox-cutout-motion",
       "version": 1,
       "status": "approved",

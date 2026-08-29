@@ -9,6 +9,8 @@
 [![HyperFrames](https://img.shields.io/badge/Render-HyperFrames-7C3AED.svg)](https://hyperframes.ai/)
 [![GitHub stars](https://img.shields.io/github/stars/11Yuxuanyang/million-ai-editor?style=flat&color=D8FF00&labelColor=111111)](https://github.com/11Yuxuanyang/million-ai-editor/stargazers)
 
+**抖音账号：AI，我俩和一百万**
+
 我们做了一个违反祖宗的决定：**开源。**
 
 一个多月里，我们细拆了 20 多位创作者的剪辑手法，把对爆款短视频的理解放进系统，并用 10 多条真实视频持续试错。百万AI剪辑师不是“一键套模板”，而是一套让 AI 先理解内容、再作导演判断、最后完成工程化交付的剪辑系统。
@@ -191,5 +193,13 @@ system/editing/                     媒体、ASR、进程与诊断模块
 - 能让工作流更简单、更清楚的删除和重构。
 
 先阅读 [CONTRIBUTING.md](CONTRIBUTING.md)，再发 Issue 或 Pull Request。
+
+## 关注与合作
+
+抖音账号：**AI，我俩和一百万**
+
+如需短视频制作、AI 剪辑工作流、品牌内容或项目共创合作，请扫码添加微信，备注“合作”并简单说明你的项目。
+
+<a href="docs/assets/wechat-contact-yang-yuxuan.jpg"><img src="docs/assets/wechat-contact-yang-yuxuan.jpg" alt="杨宇轩微信合作联系方式" width="360"></a>
 
 把注意力放回创造。百万AI剪辑师，正式开源。

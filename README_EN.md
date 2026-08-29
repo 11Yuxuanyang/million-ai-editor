@@ -9,6 +9,8 @@
 [![HyperFrames](https://img.shields.io/badge/Render-HyperFrames-7C3AED.svg)](https://hyperframes.ai/)
 [![GitHub stars](https://img.shields.io/github/stars/11Yuxuanyang/million-ai-editor?style=flat&color=D8FF00&labelColor=111111)](https://github.com/11Yuxuanyang/million-ai-editor/stargazers)
 
+**Douyin: AI，我俩和一百万**
+
 We made a decision that would disappoint our ancestors: **we open-sourced it.**
 
 Over more than a month, we studied the editing techniques of over 20 creators, encoded our understanding of high-performing short videos into the system, and tested it across more than 10 real productions. Million AI Editor is not a one-click template generator. It is an editing system in which AI first understands the content, then makes directorial decisions, and finally completes an engineering-grade delivery workflow.
@@ -191,5 +193,13 @@ We want this system to keep growing instead of being frozen by a rulebook that c
 - deletions and refactors that make the workflow simpler and clearer.
 
 Read [CONTRIBUTING.md](CONTRIBUTING.md) before opening an Issue or Pull Request.
+
+## Follow and Collaborate
+
+Douyin: **AI，我俩和一百万**
+
+For short-video production, AI editing workflows, brand content, or project collaboration, scan the WeChat code below. Add “合作” and a short project description to your request.
+
+<a href="docs/assets/wechat-contact-yang-yuxuan.jpg"><img src="docs/assets/wechat-contact-yang-yuxuan.jpg" alt="Yang Yuxuan WeChat contact for collaboration" width="360"></a>
 
 Put attention back into creation. Million AI Editor is now open source.
