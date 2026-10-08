@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="360" viewBox="0 0 960 360" role="img" aria-labelledby="title desc">
   <title id="title">11Yuxuanyang/million-ai-editor GitHub Star Trend</title>
-  <desc id="desc">Cumulative GitHub stars from 2026-08-25 to 2026-10-07: 10</desc>
+  <desc id="desc">Cumulative GitHub stars from 2026-08-25 to 2026-10-08: 10</desc>
   <style>
     .title { fill: #f5f5f2; font: 700 24px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
     .meta { fill: #9b9b96; font: 14px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
@@ -13,9 +13,9 @@
   <text x="926" y="38" text-anchor="end" class="title">10 ★</text>
   <line x1="74" y1="302.0" x2="926" y2="302.0" class="grid"/><line x1="74" y1="257.2" x2="926" y2="257.2" class="grid"/><line x1="74" y1="190.0" x2="926" y2="190.0" class="grid"/><line x1="74" y1="122.8" x2="926" y2="122.8" class="grid"/><line x1="74" y1="78.0" x2="926" y2="78.0" class="grid"/>
   <text x="58" y="307.0" text-anchor="end" class="axis">0</text><text x="58" y="262.2" text-anchor="end" class="axis">2</text><text x="58" y="195.0" text-anchor="end" class="axis">5</text><text x="58" y="127.8" text-anchor="end" class="axis">8</text><text x="58" y="83.0" text-anchor="end" class="axis">10</text>
-  <polyline points="74.0,302.0 133.4,279.6 173.1,257.2 192.9,234.8 232.5,212.4 292.0,167.6 450.5,145.2 767.5,122.8 846.7,100.4 926.0,78.0" fill="none" stroke="#d8ff00" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <polyline points="74.0,302.0 132.1,279.6 170.8,257.2 190.2,234.8 228.9,212.4 287.0,167.6 441.9,145.2 751.7,122.8 829.2,100.4 906.6,78.0 926.0,78.0" fill="none" stroke="#d8ff00" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
   <circle cx="926.0" cy="78.0" r="6" fill="#d8ff00"/>
   <text x="74" y="336" class="axis">2026-08-25</text>
-  <text x="926" y="336" text-anchor="end" class="axis">2026-10-07</text>
+  <text x="926" y="336" text-anchor="end" class="axis">2026-10-08</text>
   <text x="480.0" y="336" text-anchor="middle" class="axis">Updated daily by GitHub Actions</text>
 </svg>
