@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="360" viewBox="0 0 960 360" role="img" aria-labelledby="title desc">
   <title id="title">11Yuxuanyang/million-ai-editor GitHub Star Trend</title>
-  <desc id="desc">Cumulative GitHub stars from 2026-08-25 to 2026-10-17: 14</desc>
+  <desc id="desc">Cumulative GitHub stars from 2026-08-25 to 2026-10-18: 14</desc>
   <style>
     .title { fill: #f5f5f2; font: 700 24px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
     .meta { fill: #9b9b96; font: 14px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
@@ -13,9 +13,9 @@
   <text x="926" y="38" text-anchor="end" class="title">14 ★</text>
   <line x1="74" y1="302.0" x2="926" y2="302.0" class="grid"/><line x1="74" y1="238.0" x2="926" y2="238.0" class="grid"/><line x1="74" y1="190.0" x2="926" y2="190.0" class="grid"/><line x1="74" y1="142.0" x2="926" y2="142.0" class="grid"/><line x1="74" y1="78.0" x2="926" y2="78.0" class="grid"/>
   <text x="58" y="307.0" text-anchor="end" class="axis">0</text><text x="58" y="243.0" text-anchor="end" class="axis">4</text><text x="58" y="195.0" text-anchor="end" class="axis">7</text><text x="58" y="147.0" text-anchor="end" class="axis">10</text><text x="58" y="83.0" text-anchor="end" class="axis">14</text>
-  <polyline points="74.0,302.0 122.2,286.0 154.4,270.0 170.5,254.0 202.6,238.0 250.8,206.0 379.4,190.0 636.6,174.0 700.9,158.0 765.2,142.0 781.3,126.0 829.5,110.0 893.8,94.0 926.0,78.0" fill="none" stroke="#d8ff00" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <polyline points="74.0,302.0 121.3,286.0 152.9,270.0 168.7,254.0 200.2,238.0 247.6,206.0 373.8,190.0 626.2,174.0 689.3,158.0 752.4,142.0 768.2,126.0 815.6,110.0 878.7,94.0 910.2,78.0 926.0,78.0" fill="none" stroke="#d8ff00" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
   <circle cx="926.0" cy="78.0" r="6" fill="#d8ff00"/>
   <text x="74" y="336" class="axis">2026-08-25</text>
-  <text x="926" y="336" text-anchor="end" class="axis">2026-10-17</text>
+  <text x="926" y="336" text-anchor="end" class="axis">2026-10-18</text>
   <text x="480.0" y="336" text-anchor="middle" class="axis">Updated daily by GitHub Actions</text>
 </svg>
