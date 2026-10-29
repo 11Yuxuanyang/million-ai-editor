@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="360" viewBox="0 0 960 360" role="img" aria-labelledby="title desc">
   <title id="title">11Yuxuanyang/million-ai-editor GitHub Star Trend</title>
-  <desc id="desc">Cumulative GitHub stars from 2026-08-25 to 2026-10-29: 14</desc>
+  <desc id="desc">Cumulative GitHub stars from 2026-08-25 to 2026-10-29: 15</desc>
   <style>
     .title { fill: #f5f5f2; font: 700 24px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
     .meta { fill: #9b9b96; font: 14px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
@@ -10,10 +10,10 @@
   <rect width="100%" height="100%" rx="8" fill="#11110f"/>
   <text x="74" y="38" class="title">Star 趋势 / History</text>
   <text x="74" y="61" class="meta">11Yuxuanyang/million-ai-editor</text>
-  <text x="926" y="38" text-anchor="end" class="title">14 ★</text>
-  <line x1="74" y1="302.0" x2="926" y2="302.0" class="grid"/><line x1="74" y1="238.0" x2="926" y2="238.0" class="grid"/><line x1="74" y1="190.0" x2="926" y2="190.0" class="grid"/><line x1="74" y1="142.0" x2="926" y2="142.0" class="grid"/><line x1="74" y1="78.0" x2="926" y2="78.0" class="grid"/>
-  <text x="58" y="307.0" text-anchor="end" class="axis">0</text><text x="58" y="243.0" text-anchor="end" class="axis">4</text><text x="58" y="195.0" text-anchor="end" class="axis">7</text><text x="58" y="147.0" text-anchor="end" class="axis">10</text><text x="58" y="83.0" text-anchor="end" class="axis">14</text>
-  <polyline points="74.0,302.0 113.3,286.0 139.5,270.0 152.6,254.0 178.9,238.0 218.2,206.0 323.0,190.0 532.8,174.0 585.2,158.0 637.6,142.0 650.7,126.0 690.1,110.0 742.5,94.0 768.7,78.0 926.0,78.0" fill="none" stroke="#d8ff00" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="926" y="38" text-anchor="end" class="title">15 ★</text>
+  <line x1="74" y1="302.0" x2="926" y2="302.0" class="grid"/><line x1="74" y1="242.3" x2="926" y2="242.3" class="grid"/><line x1="74" y1="182.5" x2="926" y2="182.5" class="grid"/><line x1="74" y1="137.7" x2="926" y2="137.7" class="grid"/><line x1="74" y1="78.0" x2="926" y2="78.0" class="grid"/>
+  <text x="58" y="307.0" text-anchor="end" class="axis">0</text><text x="58" y="247.3" text-anchor="end" class="axis">4</text><text x="58" y="187.5" text-anchor="end" class="axis">8</text><text x="58" y="142.7" text-anchor="end" class="axis">11</text><text x="58" y="83.0" text-anchor="end" class="axis">15</text>
+  <polyline points="74.0,302.0 113.3,287.1 139.5,272.1 152.6,257.2 178.9,242.3 218.2,212.4 323.0,197.5 532.8,182.5 585.2,167.6 637.6,152.7 650.7,137.7 690.1,122.8 742.5,107.9 768.7,92.9 926.0,78.0" fill="none" stroke="#d8ff00" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
   <circle cx="926.0" cy="78.0" r="6" fill="#d8ff00"/>
   <text x="74" y="336" class="axis">2026-08-25</text>
   <text x="926" y="336" text-anchor="end" class="axis">2026-10-29</text>
