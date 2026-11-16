@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="360" viewBox="0 0 960 360" role="img" aria-labelledby="title desc">
   <title id="title">11Yuxuanyang/million-ai-editor GitHub Star Trend</title>
-  <desc id="desc">Cumulative GitHub stars from 2026-08-25 to 2026-11-15: 18</desc>
+  <desc id="desc">Cumulative GitHub stars from 2026-08-25 to 2026-11-16: 19</desc>
   <style>
     .title { fill: #f5f5f2; font: 700 24px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
     .meta { fill: #9b9b96; font: 14px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
@@ -10,12 +10,12 @@
   <rect width="100%" height="100%" rx="8" fill="#11110f"/>
   <text x="74" y="38" class="title">Star 趋势 / History</text>
   <text x="74" y="61" class="meta">11Yuxuanyang/million-ai-editor</text>
-  <text x="926" y="38" text-anchor="end" class="title">18 ★</text>
-  <line x1="74" y1="302.0" x2="926" y2="302.0" class="grid"/><line x1="74" y1="252.2" x2="926" y2="252.2" class="grid"/><line x1="74" y1="190.0" x2="926" y2="190.0" class="grid"/><line x1="74" y1="127.8" x2="926" y2="127.8" class="grid"/><line x1="74" y1="78.0" x2="926" y2="78.0" class="grid"/>
-  <text x="58" y="307.0" text-anchor="end" class="axis">0</text><text x="58" y="257.2" text-anchor="end" class="axis">4</text><text x="58" y="195.0" text-anchor="end" class="axis">9</text><text x="58" y="132.8" text-anchor="end" class="axis">14</text><text x="58" y="83.0" text-anchor="end" class="axis">18</text>
-  <polyline points="74.0,302.0 105.2,289.6 126.0,277.1 136.3,264.7 157.1,252.2 188.3,227.3 271.4,214.9 437.7,202.4 479.2,190.0 520.8,177.6 531.2,165.1 562.3,152.7 603.9,140.2 624.7,127.8 749.4,115.3 780.5,102.9 822.1,90.4 832.5,78.0 926.0,78.0" fill="none" stroke="#d8ff00" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="926" y="38" text-anchor="end" class="title">19 ★</text>
+  <line x1="74" y1="302.0" x2="926" y2="302.0" class="grid"/><line x1="74" y1="243.1" x2="926" y2="243.1" class="grid"/><line x1="74" y1="184.1" x2="926" y2="184.1" class="grid"/><line x1="74" y1="136.9" x2="926" y2="136.9" class="grid"/><line x1="74" y1="78.0" x2="926" y2="78.0" class="grid"/>
+  <text x="58" y="307.0" text-anchor="end" class="axis">0</text><text x="58" y="248.1" text-anchor="end" class="axis">5</text><text x="58" y="189.1" text-anchor="end" class="axis">10</text><text x="58" y="141.9" text-anchor="end" class="axis">14</text><text x="58" y="83.0" text-anchor="end" class="axis">19</text>
+  <polyline points="74.0,302.0 104.8,290.2 125.3,278.4 135.6,266.6 156.1,254.8 186.9,231.3 269.0,219.5 433.3,207.7 474.3,195.9 515.4,184.1 525.7,172.3 556.5,160.5 597.5,148.7 618.0,136.9 741.2,125.2 772.0,113.4 813.1,101.6 823.3,89.8 926.0,78.0" fill="none" stroke="#d8ff00" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
   <circle cx="926.0" cy="78.0" r="6" fill="#d8ff00"/>
   <text x="74" y="336" class="axis">2026-08-25</text>
-  <text x="926" y="336" text-anchor="end" class="axis">2026-11-15</text>
+  <text x="926" y="336" text-anchor="end" class="axis">2026-11-16</text>
   <text x="480.0" y="336" text-anchor="middle" class="axis">Updated daily by GitHub Actions</text>
 </svg>
